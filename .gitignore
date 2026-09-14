@@ -4,3 +4,6 @@
 # Also ignore any data/ subdirectories in submodules if present
 */data/*
 **/Data/*
+
+Data/
+*.csv
