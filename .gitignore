@@ -1,0 +1,6 @@
+# Ignore data directory and its contents
+/Data/*
+
+# Also ignore any data/ subdirectories in submodules if present
+*/data/*
+**/Data/*
