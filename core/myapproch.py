@@ -13,8 +13,8 @@ if __name__ == "__main__":
     print("GWR SUPPORT AGENT - INTERACTIVE TEST")
     print("=" * 60)
 
-    test_context = "Customer: @GWRHelp my train from Paddington to Reading was delayed by 45 minutes."
-    test_msg = "How do I claim compensation for this delay?"
+    test_context = "Customer: @GWRHelp my train from Paddington to Reading was delayed by 45 minutes." 
+    test_msg = "How do I claim compensation for this delay?" # add what message you want and test it
 
     print(f"Context: {test_context}")
     print(f"Message: {test_msg}\n")
