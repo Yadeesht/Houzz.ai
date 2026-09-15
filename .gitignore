@@ -5,3 +5,4 @@ twcs.csv
 temp/
 
 temp.py
+.env
