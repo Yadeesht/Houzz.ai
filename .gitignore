@@ -6,3 +6,5 @@ temp/
 
 temp.py
 .env
+
+**/__pycache__/**
