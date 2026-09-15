@@ -154,18 +154,45 @@ class GeminiSupportLLM:
             method="POST"
         )
 
-        try:
-            with urllib.request.urlopen(req, timeout=self.timeout) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                raw_output = data["candidates"][0]["content"]["parts"][0]["text"]
-        except urllib.error.HTTPError as e:
-            err_body = e.read().decode("utf-8", errors="replace") if e.fp else ""
-            raise RuntimeError(f"Gemini API HTTP {e.code} error: {err_body or e.reason}")
-        except Exception as e:
-            raise RuntimeError(f"Gemini API call failed: {e}")
+        max_retries = 5
+        raw_output = None
+
+        for attempt in range(1, max_retries + 1):
+            try:
+                with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                    raw_output = data["candidates"][0]["content"]["parts"][0]["text"]
+                    break
+            except urllib.error.HTTPError as e:
+                err_body = e.read().decode("utf-8", errors="replace") if e.fp else ""
+                if e.code in (429, 500, 502, 503, 504) and attempt < max_retries:
+                    sleep_time = min(25.0, 3.0 * (1.8 ** (attempt - 1)))
+                    logger.warning(
+                        "[Gemini API] HTTP %d (%s). Sleeping %.1fs before retry (Attempt %d/%d)...",
+                        e.code, e.reason, sleep_time, attempt, max_retries
+                    )
+                    import time
+                    time.sleep(sleep_time)
+                    continue
+                raise RuntimeError(f"Gemini API HTTP {e.code} error: {err_body or e.reason}")
+            except Exception as e:
+                if attempt < max_retries:
+                    sleep_time = min(25.0, 3.0 * (1.8 ** (attempt - 1)))
+                    logger.warning(
+                        "[Gemini API] %s. Sleeping %.1fs before retry (Attempt %d/%d)...",
+                        e, sleep_time, attempt, max_retries
+                    )
+                    import time
+                    time.sleep(sleep_time)
+                    continue
+                raise RuntimeError(f"Gemini API call failed after {max_retries} attempts: {e}")
+
+        if raw_output is None:
+            raise RuntimeError("Gemini API returned empty response after all retries.")
 
         # Validate structured JSON
         return validate_and_parse_llm_output(raw_output)
+
 
 
 # Alias for compatibility with pipeline
