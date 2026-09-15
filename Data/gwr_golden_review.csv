@@ -1,0 +1,1106 @@
+thread_id,full_conversation,total_turns,customer_turns,company_turns,length_bucket,dm_signal,escalation_signal,intent,interaction_type,resolution_status,evaluation_quality
+GWR_000001,"Customer: Congrats on the first trains of the new Intercity Express train fleet for @GWRHelp ! We are proud that our MTU PowerPacks power the trains. https://t.co/h4eEc8Od7i
+GWRHelp: @431836 Hello! Thank you, and appreciate the work you have done to help power our fleet! -Andy",2,1,1,,FALSE,FALSE,OTHER,other,unresolved,bad_candidate
+GWR_000002,"Customer: @GWRHelp why has the 16.27 from Paddington to Bristol only go 7 carriages  instead of 10? It's rammed!
+GWRHelp: @595452 Hi Jaz. This is because our IETs aren't in service this weekend, our HST's don't have 10 carriages. Apologies for the busy conditions. Rach",2,1,1,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000003,"Customer: .@GWRHelp The brand new IET train at Cardiff Central earlier today. Its very impressive. Getting mega miles out of this today https://t.co/8pk1brnKMn
+GWRHelp: @455703 Hi Laurence. Great photo! Thanks for sharing this - Josh
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan",7,1,6,,FALSE,FALSE,OTHER,other,unresolved,bad_candidate
+GWR_000004,"Customer: @GWRHelp I’m on a delayed Manchester - Bristol Temple meads service &amp; not going to make it to Bristol on Time for 12:22 to Westbury what train can I get next from Bristol to Westbury?
+GWRHelp: @594262 Hi Jonathan. The next available services from Bristol Temple Meads to Westbury will be the 1239 or 1249. :) Rach
+Customer: @GWRHelp Thanks can I use my ticket on them?
+GWRHelp: @594262 Can you send me a photo of your ticket please? Rach https://t.co/Fg4VGS9qNo
+Customer: @GWRHelp It’s ok I made 12:22 with 1 minute to spare!!!!! :)
+GWRHelp: @594262 Glad to hear this! :) Rach",6,3,3,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000005,"Customer: @GWRHelp why do you no longer do trains from Paddington to Burnham/Taplow past 9pm?
+GWRHelp: @129487 Hello. Chloe. There is upgrade work taking place on the railway therefore replacement buses will operate from Slough at the moment. - Jordan
+Customer: @GWRHelp Do you know where we get the bus from?
+GWRHelp: @129487 It will be from the front of the station - Platform 2 side. Natalie
+Customer: @GWRHelp Is it in the taxi drop off bit or on the actual road where the Porter Building is? It's not sign posted anywhere!
+GWRHelp: @129487 Are you at Slough right now? Best to speak to a member of staff at the station. Natalie",6,3,3,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,unresolved,good_candidate
+GWR_000006,"Customer: @GWRHelp - over 30 mins delay this morning! Good going. What sort of an excuse is “late from the depot”? I couldn’t use that at work?! “Sorry I’m late I was late from my house” wouldn’t go down well. 
+Break it up @134178 #trainrefund #railareturns
+GWRHelp: @754891 @134178 Hi Samuel. Sorry for the delay this morning. There are several different reasons why a train may leave the depot late and we don't always have the specifics. I appreciate this is frustrating. Apologies again. Natalie",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,resolved,good_candidate
+GWR_000007,"Customer: @GWRHelp Paddington is freezing and we are stood waiting around - NO ONE IS TELLING US ANYTHING!!
+GWRHelp: @252176 Hi Matt. Sorry to hear this. The 2248 is due to run - Josh
+Customer: @GWRHelp But why has the 22:45 stopped calling at Reading. Tonight is beyond a joke.
+GWRHelp: @252176 This is a change that has been made tonight due to extra customers expected on the service who are travelling to Swansea. The 22.48 will run with extra carriages for customer going to Reading. Apologies for any inconvenience caused - Josh
+Customer: @GWRHelp Is there also delays on the line this evening? This train is stop-start-stop-start..
+GWRHelp: @252176 This is due to following a late running train. Apologies for this Matt. The service is currently running 19 minutes late - Josh",6,3,3,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,information,resolved,good_candidate
+GWR_000008,"Customer: Hanks for a great Friday evening @GWRHelp , currently 25 mins late on the 6pm from Paddington to reading... stop start stop.! 😡
+GWRHelp: @435116 Hello Hayley. I am sorry for the delay this evening. This is due to congestion in the area. - Jordan",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,resolved,good_candidate
+GWR_000009,"Customer: @GWRHelp @121203 consistent bad service from honeybourne to london. You buy a 1st class ticket to find that power sockets broken + no cafe
+GWRHelp: @571095 @121203 Hi Jono, sorry to hear this. What was the departure time from Honeybourne? Which carriage are you in? -Andy",2,1,1,,FALSE,FALSE,STAFF / SERVICE COMPLAINT,complaint,resolved,good_candidate
+GWR_000010,"Customer: @GWRHelp how can I claim compensation for delayed 20:00 London to Bristol temple meads train tonight? Bought the ticket at the station, train getting in now, 38 minutes late
+GWRHelp: @336904 Hi Thomas. Sorry for the delay. I'm afraid compensation would only be due for that journey if delayed by an hour. Lewis
+Customer: @GWRHelp Is there not partial compensation for delay of over 30 minutes?
+GWRHelp: @336904 Not for this journey, sorry Thomas. - Jordan
+Customer: @GWRHelp Why not?
+GWRHelp: @336904 The delay is under an hour. Details about compensation can be found here: https://t.co/kZncdam7bx - Jordan
+Customer: @GWRHelp @nationalrailenq is this correct?",7,4,3,,FALSE,FALSE,REFUND / COMPENSATION,request,resolved,good_candidate
+GWR_000011,"Customer: @GWRHelp why can't this train leave Didcot Parkway until 19.38? To Swindon.
+GWRHelp: @363958 Hi Bryan. Are you sat on the 1938 now? Phil.
+Customer: @GWRHelp Yep
+GWRHelp: @363958 It will need to wait for all other passengers to board/arrive from connections before it can depart. Phil.
+Customer: @GWRHelp I could've told you that! Put more bloody trains on muppets. These idiots in vests at stations are clueless too GWR=Ryanair on Rail!",5,3,2,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000012,"Customer: Full and standing to the point of being unsafe, unable to get on, and staff with no clue as to the concept of customer service. @GWRHelp https://t.co/ce1QUJtSrG
+GWRHelp: @338976 Hi Chris. Safety is paramount and if full we will always prevent further boarding. The next service to Plymouth is at 1428. Lewis
+Customer: @GWRHelp Are you going to answer the question as to why it was decided to put on just one carriage for such a long route, on a busy Saturday?
+Customer: @GWRHelp And forgive me for finding utterly arbitrary the method of deciding whether the train was full. Is there a prescribed method for this?
+GWRHelp: @338976 There isn't a set number of passengers allowed on a service but our staff are safety trained and will use this when making a determination.
+GWRHelp: @338976 We run with as many carriages as possible but a lot of maintenance has to take place at weekends. Sorry for the problems this has caused.
+Customer: @GWRHelp No, to repeat for a third time, I'd like to know the reason this specific service was run with one carriage. Thank you.
+Customer: @GWRHelp And while we're at it, do you have figures available as to the cost of your rebrand to GWR that you insisted wasn't 'just a rebrand'?
+GWRHelp: @338976 I explained, we always run with as many as possible but due to maintenance requirements we don't have as many available. Lewis
+Customer: @GWRHelp And do you have any expectation that one carriage will fit all pax on that route, or are you selling a service you can't possibly provide?
+GWRHelp: @338976 Most tickets sold are flexible so we can't always determine how many people will want to travel on a specific service. 1/2
+GWRHelp: @338976 2/2 We do monitor and where possible will try to match resources to predicted numbers. Lewis
+Customer: @GWRHelp In no-one's mind is a one-carriage train going to be sufficient all the way from Penzance to Plymouth. Wouldn't you agree?
+Customer: @GWRHelp And you seem to be failing miserably at matching resources to predicted numbers. Just arrived in Plymouth 40mins late by taxi - thanks.
+GWRHelp: @338976 We can only run with the carriages we have available. Apologies again for the problems today. Lewis
+Customer: @GWRHelp I'll take that as agreement with my point. My complaint will be in the post. Lost count of how many I've made, yet service never improves.",16,9,7,,FALSE,FALSE,STAFF / SERVICE COMPLAINT,complaint,unresolved,good_candidate
+GWR_000013,"Customer: Half an hour late getting to Taunton. Good job @GWRHelp
+GWRHelp: @14753 Hi Dave. What service are you referring to please? Rach
+Customer: @GWRHelp The 1157 Paddington to Penzance. It's criminally overcrowded and now half an hour late.
+GWRHelp: @14753 Many apologies for the delay to your journey Dave. Rach
+Customer: @GWRHelp Apologies don't really help, to be honest. How late does it need to be for me to claim compensation?
+Customer: @GWRHelp I note you apologise for the delay (which might not be in your control) but not the overcrowding (which definitely is in your control).
+GWRHelp: @14753 Apologies Dave. If delayed by an hour you can claim compensation here: https://t.co/MEgzCgvyTa
+Customer: @GWRHelp Your link is a 404. But this page says I can claim after 30 minutes https://t.co/2HaqG4zKY0
+GWRHelp: @14753 Hi Dave. Not sure why that is. Can you try this link please: https://t.co/kZncdam7bx. Lewis
+Customer: @GWRHelp Yeah. That's the page I found. It says I can claim for delays of 30 mins. Not sure why you said an hour.
+GWRHelp: @14753 It would be an hour for that journey. If you click on how it works, a break down of the different arrangements is provided. Lewis
+Customer: @GWRHelp So I see. That's ridiculous. If I can't claim for this appalling service I'm going to be furious.
+GWRHelp: @14753 I'm afraid unless delayed by an hour or you booked a seat but had to stand, you can't claim. Lewis",13,7,6,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000014,"Customer: @GWRHelp good morning. Is Shiplake station being moved entirely this weekend? https://t.co/Apr7xQYImx
+GWRHelp: @295472 Hi Russell. Can you explain what you mean please? - Josh
+Customer: @GWRHelp That picture is your station advert. Look at Shiplake.
+GWRHelp: @295472 Apologies for this Russell. Where is the poster located please? I will get this reported - Josh
+Customer: @GWRHelp Twyford. But I'm guessing it doesn't have its own special print.
+GWRHelp: @295472 Thank you for confirming, we'll look into this. - Jordan",6,3,3,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,information,resolved,good_candidate
+GWR_000015,"Customer: This is the 11:44am @GWRHelp service Bristol Parkway to London Paddington (after rail replacement from Cardiff). You call this good service? https://t.co/smAhjZb0WP
+GWRHelp: @353690 Hi Robert. Apologies for the busy conditions. Did you reserve a seat for this service? Rach
+Customer: @GWRHelp I did but I can’t even get to it!
+Customer: @GWRHelp And - I won’t die tbh but there are several elderly ppl here w walking sticks etc standing &amp; not being offered seats #accessibility #respect
+GWRHelp: @353690 As you reserved a seat but have to stand you are entitled to compensation. Please send details to __email__. Lewis
+GWRHelp: nan",6,3,3,,FALSE,FALSE,STAFF / SERVICE COMPLAINT,complaint,unresolved,good_candidate
+GWR_000016,"Customer: Just one of those standard @GWRHelp themed tweets about my train starting off 18mins late and still haemorrhaging time. 22mins late now 🤔
+GWRHelp: @521296 Hi Nick. Which service is this please? Natalie
+Customer: @GWRHelp Hi Natalie. Thanks. 0805 Cdf to Swansea. Station says it's imminent and caused by late departure from Pad.
+Customer: @521296 @GWRHelp That sucks
+Customer: @552142 @GWRHelp Ha, thanks! Obvs not a huge problem but I picked a bad day to arrive super early.
+GWRHelp: @521296 Thanks Nick. I can see this is running 22 minutes late at the moment as the train left the depot late earlier. I'm very sorry about this.
+Customer: @GWRHelp Thanks
+GWRHelp: nan",8,5,3,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,resolved,good_candidate
+GWR_000017,"Customer: Got to the platform at 7:43, train leaves at 7:44 but the doors were already closed. Asked if I could get on &amp; I was told no because the doors were already locked. Then two staff unlock &amp; step on infront of me. Then told again I'm not allowed on the train. Thanks again @GWRHelp
+GWRHelp: @130647 Sorry for this Deborah, doors can lock up to 40 seconds before departure but we'd always recommend being able to board in plenty of time to avoid these situations. Phil.
+Customer: @GWRHelp But staff were allowed to board the train in front of me, yet I still wasn't allowed
+GWRHelp: @130647 Staff may still be permitted to board if passenger boarding has ended, the staff may have been crew for that service. I do appreciate it's frustrating though, sorry you weren't able to board today. Phil.",4,2,2,,FALSE,FALSE,STAFF / SERVICE COMPLAINT,complaint,resolved,good_candidate
+GWR_000018,"Customer: @GWRHelp Fantastic service for people with disabilities, all seat reservations cancelled because ""there was no time to put them out""
+GWRHelp: @579058 Hi Lauren. Really sorry for any inconvenience caused. If you had a seat booked and have had to stand please email __email__- Josh",2,1,1,,FALSE,FALSE,STAFF / SERVICE COMPLAINT,complaint,unresolved,good_candidate
+GWR_000019,"Customer: @GWRHelp where do I send the bill for my time you've wasted and my missed connecting train? #MickeyMouse #LiterallyEveryOtherTrainIsLate
+GWRHelp: @534509 Hi Dave. Sorry for the delay to your journey. We don't compensate for consequential losses but please check: https://t.co/kZncdam7bx. Nat
+Customer: @GWRHelp You don't compensate for something that's directly your responsibility? Seems legit! Can't imagine if I took that to court you'd fair well
+GWRHelp: @534509 We will compensate the cost of your train ticket if you are eligible based on your ticket, overall delay time and the cause of the delay.",4,2,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,request,unresolved,good_candidate
+GWR_000020,"Customer: @GWRHelp Three carriages at peak hour is not acceptable!! Filton to cardiff. Standing room, crammed. People left on platform....
+GWRHelp: @374844 Sorry for the crowding on board today Leona. More carriages are coming to the route to boost capacity from January. Phil.",2,1,1,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000021,"Customer: @GWRHelp for the love of GOD, run trains on time. Guildford to Wokingham is a connecting train for most people. If late, it's game over
+GWRHelp: @367763 Sorry for any delay this morning Chis, what was the departure time please? Phil.
+Customer: @GWRHelp Departed 07:50 instead of 07:43. Now I miss my connection AGAIN. Now it's a taxi from Wokingham! Now I'm £24 on taxis in 3 working days.
+GWRHelp: @367763 Are you referring to the 0745 service? This is a South Western Railway service I'm afraid. Rach
+Customer: @GWRHelp Are for real! It's the 0743 from Guildford to Wokingham! The train has a giant GWR logo on the side. Do you not know your own service. https://t.co/J5XRtHK9yy
+Customer: @GWRHelp Oh Silence... I think the words you're looking for are ""apologies Chris, yes our service was late again. Could we refund your taxi costs""
+GWRHelp: @367763 Apologies yes 0743 our service and was delayed - Sorry for this. We're not liable for consequential losses I'm afraid. Phil.
+Customer: @GWRHelp Problem is I'm ""liable"" if I dont buy ticket. I'm ""liable"" for being late to work. Thanks for apology. 
+New Car arrives next week Hallelujah https://t.co/Nz9xKJFspK
+Customer: @GWRHelp Once again you've out performed my expectations. 0743 from Guildford is late again! You should be proud of your redundant service. TAXI ‼️
+GWRHelp: @367763 HI Chris. It's currently running 5 minutes late due to following a late running service. Sorry for the problems this causes. Lewis
+Customer: @GWRHelp Giving me 60 seconds to make my change! Thank you for the apology. Luckily for me, I'm getting used to this and I've met a funny taxi driver https://t.co/QaV2YjnrU2",11,7,4,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000022,"Customer: @GWRHelp Still no clarity on advance tickets or timetables for weekends December 2nd onwards? You said NR had finalised this!
+GWRHelp: @280466 Hello Mike. Advance Tickets are available to 31 December. Some weekends have been held back. More info here: https://t.co/4BYUNd7mJY - Jord
+Customer: @GWRHelp So this exchange earlier in the week was incorrect? https://t.co/pgoieyJMH5
+GWRHelp: @280466 Yes, this is now incorrect. We wasn't aware that 2 December would be a later opening. Most dates have been extended until end of the year.",4,2,2,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000023,"Customer: @GWRHelp Hi,when will the timetables be confirmed for Christmas week? I only ask as the Pad to Penzance sleeper is still missing on 21/12..?
+GWRHelp: @116715 1/2 Hi. It appears the service will run however it is not in the system yet. We are waiting for confirmation from...
+GWRHelp: @116715 2/2 Network Rail before advertising it. This should be confirmed in the next two weeks - Josh",3,1,2,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,information,resolved,good_candidate
+GWR_000024,"Customer: @GWRHelp hello, is there any way you can please tell me what the 10.21 train from Paddington to Hereford on 23rd December is likely to be - HST or DMU? Thanks.
+GWRHelp: @470280 Hi Sian, this is scheduled to be a High Speed Train. -Andy
+Customer: @GWRHelp Wahey Andy, thanks for this. Is it likely to change at all? And if so, do you know where best for me to check that in run up to the day?
+GWRHelp: @470280 The timetable is confirmed so it should run as a HST, on the day if there's disruption it may cause changes but we expect it to be a HST. -Andy
+GWRHelp: @470280 You can check with us on the day and we can confirm. -Andy
+Customer: @GWRHelp Belated thanks for your help!
+GWRHelp: @470280 No problem Sian! Rach",7,3,4,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,information,resolved,good_candidate
+GWR_000025,"Customer: @GWRHelp when do you expect to publish the new January 2018 timetables. Interested to see changes with all the new trains
+GWRHelp: @733504 Hi. I can't say exactly when but it shouldn't be to much longer now. Lewis
+Customer: @GWRHelp Ok thanks. Is the information on Journey planner correct for January 2018? Wouldn’t want to plan travel if it’s incorrect.
+GWRHelp: @733504 What dates in January are you looking to travel? Lewis
+Customer: @GWRHelp Most weekdays. I will wait for timetables to be published
+GWRHelp: @733504 Reservations are available for weekdays from Tuesday 2 January to Friday 9 March 2018 so the timetable is unlikely to change. Lewis",6,3,3,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000026,"Customer: Hi @GWRHelp, what will the journey time between Didcot Parkway and Paddington? It’s around 45 mins with the current HSTs. Thank you. https://t.co/d7JOc0irEF
+GWRHelp: @258335 HI Mark. I don't have a figure for Didcot Parkway but looking at the January timetable there are services timed to take 40 minutes. Lewis
+Customer: @GWRHelp Thank you Lewis",3,2,1,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000027,"Customer: @GWRHelp to disinterested in customers to address valid concerns. Disgraceful. Again
+GWRHelp: @580790 1/2 Apologies for the lack of response until now, yesterday we were having some technical issues which affected our responses.
+GWRHelp: @580790 2/2 My further apologies for the issues you had on board - What journey were you making please? Phil.
+Customer: @GWRHelp 11:25 Reading to Paddington yesterday. Severely delayed no audible announcements. Overcrowded and 30 degrees in the carriage
+GWRHelp: @580790 Thanks for confirming. I can see this service was delayed due to following a late running service ahead. Apologies for the delay. 1/2 Rach
+GWRHelp: @580790 Can you please confirm which carriage you were in? I will then report the temperature and announcements. 2/2 Rach
+Customer: @GWRHelp The last carriage - that is the rear carriage. The delay was nothing to do with a late running service but signalling problems
+GWRHelp: @580790 Thanks for confirming, will report now. Can see there was a signalling fault which caused the congestion your train was delayed in. Phil.",8,3,5,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000028,"Customer: Kudos to @GWRHelp we seem to be getting 4 carriages on the 17:10 from Filton, at least to Westbury. A lot less overcrowded.
+GWRHelp: @127060 Hi Jonathon. Glad to hear this. All feedback is accumulated and passed on to the appropriate teams. Have a good evening! :) Rach",2,1,1,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,information,resolved,bad_candidate
+GWR_000029,"Customer: Once again @GWRHelp have cancelled 9.55 Cardiff to London due to not enough available rolling stock. Result is late for appointment. Solution is invest more of profits in infrastructure or nationalise rail. @280693
+GWRHelp: @280692 @280693 Hi Paul. Apologies for the inconvenience this has caused. We are currently making the biggest investment in a generation on new trains for this route which will help prevent issues like this going forward - Josh
+Customer: @GWRHelp @280693 Good but 2nd time in a week this has happened to me. Unreliable service at extortionate cost. Time to compensate travellers when you are unable to provide adequate service.
+GWRHelp: @280692 @280693 Sorry to hear this Paul. What kind of ticket do you hold please? - Josh
+Customer: @GWRHelp @280693 Advanced 1st class single.
+GWRHelp: @280692 @280693 Hi Paul. If delayed by an hour you can claim compensation here: https://t.co/kZncdam7bx. Lewis
+Customer: @280692 @GWRHelp @280693 I reached home at 4 last night. Terrible doesn't even begin to describe these shambles. @VirginTrains @115793 I can't understand how people live with these kind of services day in day out.
+GWRHelp: @271492 @280692 @280693 @VirginTrains @115793 Hi there. Really sorry to hear this. Was this on one of our services? - Josh
+GWRHelp: nan",9,4,5,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000030,"Customer: @GWRHelp you’ve cancelled my connecting train 8:51 from truro &amp;I’m late for uni ,I paid £2.90 extra to get an early train this utter shit
+GWRHelp: @130097 Hi Jessi. Apologies for the cancellation this morning. This train has been cancelled because of a train fault. 1/2 Rach
+GWRHelp: @130097 The next available service is the 0920. 2/2 Rach
+Customer: @GWRHelp It’s an utter shambles none of the signs have been changed
+GWRHelp: @130097 I will get this reported right away. Rach
+Customer: @GWRHelp I want a refund this is ridiculous
+GWRHelp: @130097 If delayed by an hour you can claim compensation here: https://t.co/kZncdam7bx. Rach",7,3,4,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000031,"Customer: @GWRHelp good to see investment in new rolling stock is helping commuters.... 7.16 from Maidenhead has only 3 coaches!!!!! Joke! 7.08 delayed by over 11 mins!!!! Joke!
+GWRHelp: @306557 Hi Ian. Apologies for the busy conditions this morning. Rach",2,1,1,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000032,"Customer: @GWRHelp  another thoroughly crap service between portsmouth and brighton today. So far this week we have had cancellations and 2 carriage trains. Have you any concept how much of our hard earned money we pay for this crap service?
+GWRHelp: @722408 Sorry for the issues you've had on this route Simon, which services were you using please? Phil.
+Customer: @GWRHelp 17:02 from Brighton and 07:09 from Portsmouth. It's been so reliable all summer but now is either cancelled or 2 old carriages. Every train to Havana misses it's time so we miss the connection. It's rubbish @GWRHelp
+GWRHelp: @722408 I can't see an 0709 scheduled this morning I'm afraid Simon, please could you confirm the departure time? Phil.
+Customer: @GWRHelp 2 mins late however 2 carriages  in rush hour. Last night's 5:02 from Brighton was cancelled. Mondays 7:09 from Portsmouth was cancelled and every train from Brighton gets to Havant 10 mins late making us miss cnxs
+GWRHelp: @722408 Please could you confirm the time of the service in the morning Simon? I can't see a 0709 scheduled from Portsmouth to Brighton. Phil.
+Customer: @GWRHelp Are you for real? It goes through fratton if you don't k ow your stations
+GWRHelp: @722408 No 0709 is scheduled from Portsmouth to Fratton, Havant or Brighton. There are services Portsmouth to Fratton 0701, 0705, 0713. Phil.
+Customer: @GWRHelp If you thought outside the box a little you might guess that I was talking about the 7:09 out of fratton which is in Portsmouth.
+GWRHelp: @722408 1/2 If you say you travel from Portsmouth we will search for journeys from named Portsmouth stations. Thanks for confirming your departure station, on Monday 0709 from Fratton was cancelled due to a crew shortage. Apologies for this.
+GWRHelp: @722408 2/2 We do work hard to avoid these issues but absences do occur, and we are sometimes unable to source a replacement in time. Apologies for the crowding experienced also, additional newer carriages will run on this route from mid 2018. Phil
+Customer: @GWRHelp So in 7 months time we will have new carriages but in the meantime we pay for a cheap service.   Terrible",12,6,6,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000033,"Customer: Shout out to @GWRHelp who informed customers on the 9am train on Sunday morning that the bar was fully licensed 🍸🍾👌🏼
+GWRHelp: @380524 Hi Charlie. Have a good journey today. Lewis
+Customer: @GWRHelp Hi Lewis. Despite the fact it’s a nightmare and long and seemingly never ending it is actually clean, pleasant and your staff are nice.
+Customer: @GWRHelp For context I’m talking about the train journey and not the size of the bar or something
+GWRHelp: @380524 I appreciate with all the work journeys are more difficult today, it's nice to see other aspects are making up for it. Lewis
+Customer: @GWRHelp I mean a free beer wouldn’t go amiss!",6,4,2,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,other,resolved,bad_candidate
+GWR_000034,"Customer: @GWRHelp Why is the 17.21 KYN to BRI showing as ""delayed""? Going to miss the my connection at this rate! (the 17.54 BRI to CDF).
+GWRHelp: @229010 Hi Marc. Sorry for the delay to your journey. This service is being delayed due to signalling problems. Rach
+Customer: @GWRHelp Any idea on time or if you can stop one of the HSTs that are passing through at KYN?
+Customer: @GWRHelp And just as I say that the NRE app has updated to say the 5.26 from BTH to BRI will also stop at OLF and KYN. Thanks!",4,3,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,question,resolved,good_candidate
+GWR_000035,"Customer: @GWRHelp hello, left my north face jacket on the 8.01 train from Bristol to Paddington. How do I go about getting it back please?
+GWRHelp: @546047 Hi Jim. Sorry to see this. Please register this as lost in https://t.co/xOTZgo3Svd and https://t.co/yO47H7i6Di -
+ we'll contact you if found
+Customer: @GWRHelp Thank you.",3,2,1,,FALSE,FALSE,BAGGAGE / LOST PROPERTY,question,resolved,good_candidate
+GWR_000036,"Customer: Currently on a @GWRHelp service, “next stop Hayes &amp; Harlington” as we pass through and fail to stop at Twyford. Thanks for the announcements
+GWRHelp: @492297 Hello Nick. Which service is this please? - Jordan
+Customer: @GWRHelp On a service from London Paddington to Oxford. The service still says we are stopping at Hayes &amp; Harlingt among others, we pull into reading
+GWRHelp: @492297 Can you confirm the departure time please from London? - Jordan
+Customer: @GWRHelp I believe it was supposed to be 10.27 from London Paddington but it didn’t leave until almost 10.50 so not 100% sure
+GWRHelp: @492297 I can't seem to find a 1027 service but there is a 1022 service from London Paddington to Oxford which was not scheduled to call at Twyford.
+GWRHelp: @492297 Apologies for the confusion Nick. I will report the information that was provided on the screens. What carriage were you in please? 2/2 Rach
+Customer: @GWRHelp Car 1. There were also no announcements from the driver notifying us of the change.
+Customer: @GWRHelp The announcement when we pulled into Reading was “this is Hayes &amp; Harlington”",9,5,4,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,unresolved,good_candidate
+GWR_000037,"Customer: @GWRHelp how come 1842 to MAID is now a stopping service? Can I assume i will make 1920 to B'END?
+GWRHelp: @580894 Hi Guy. It is only a temporary stopping service due to previous cancellations. We will try to hold all connecting services if possible. Rach
+Customer: @GWRHelp thanks, let's hope so!
+Customer: @GWRHelp once again another missed connection!!!!!
+GWRHelp: @580894 Apologies for the delay to your journey Guy. Rach
+Customer: @GWRHelp 1842 delayed almost every eve...no refund as season ticket holder.. 5% off renewal is not adequate comp. pls share with management
+Customer: @GWRHelp if you suddenly decide to make service a stopping service the least you can do is hold the connections. Disgraceful as usual.
+GWRHelp: @580894 I will record your feedback on this. Rach
+GWRHelp: @580895 Apologies Lauren. It was not possible to hold the connection on this occasion due to the knock on effect this can have. Phil.
+Customer: @GWRHelp don't make the service a stopping service then because that clearly has knock on effects too!!! 😡
+GWRHelp: @580895 I can appreciate your frustration at this Lauren, apologies for the delay to your journey this evening. Phil.
+Customer: @GWRHelp and again....",12,7,5,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000038,"Customer: @GWRHelp the WiFi on your trains is abysmal... it genuinely makes me wish I got the bus. Also, the lighting is super harsh 🙃
+GWRHelp: @576925 Hello. Sorry to see this. What appears to be the issue with the complimentary WiFi and what do you mean by the lighting being harsh please?
+Customer: @GWRHelp Every time I’m on your trains im unable to use the WiFi, it literally doesn’t load anything. I would use my 3G but no signal :(.
+Customer: @GWRHelp The lighting - in the nights when it’s pitch black outside the lighting in the carriage is so bright. Maybe dim it?! https://t.co/jQhlBpPrMM
+GWRHelp: @576925 Thanks. The connectivity's dependent on the 3G/4G in the area so this would explain the issue. The lights can't be dimmed for safety reasons
+Customer: @GWRHelp Thanks for the response!",6,4,2,,FALSE,FALSE,TECHNICAL / WEBSITE / APP,complaint,unresolved,good_candidate
+GWR_000039,"Customer: @GWRHelp Another day another train delay. Signal failure after an earlier delay in Swindon on a train where there is also a 'flooded' bar.
+GWRHelp: @132689 Sorry to see this Mackenzie. Which service are you travelling on please? Natalie
+Customer: @GWRHelp The 14:30 Bristol TM to London.
+Customer: @GWRHelp Here's the bag of newspaper used to mop up the water. You are a disgrace. https://t.co/FqSon1M7E4
+Customer: @GWRHelp I'm now 34 minutes late! Will I get a refund?
+GWRHelp: @132689 Hi. Thanks for confirming. Sorry for the delay. I regret compensation would only be due if delayed by an hour. Lewis
+Customer: @GWRHelp One thing I'm sure about you vile people - you aren't sorry. #greed #trainfail",7,5,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000040,"Customer: HOW HOW HOW CAN ANOTHER @GWRHelp TRAIN BE DELAYED?! In the three months I've used the service I don't think one has ever been on time
+GWRHelp: @481977 Can you confirm the journey details, Rich? - Jordan
+Customer: @GWRHelp Oldfield park 》temple meads. I don't understand why it's always late? Why not just schedule it later???
+GWRHelp: @481977 This train has been delayed due to signalling problems at Trowbridge. It's currently delayed by 33 minutes. I appreciate this is frustrating
+Customer: @GWRHelp Can you explain what a signalling problem is, not ideal when I've got a wedding to go to
+GWRHelp: @481977 The points were stuck in a position and therefore caused the signalling system to stop working. Network Rail were on site to fix this. Rach",6,3,3,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,question,unresolved,good_candidate
+GWR_000041,"Customer: @gwrhelp. Can you confirm whether there are problems at the depots which are delaying repairs to trains? Also is it true that rolling stock has been sold, rather than being used on your routes? Lots of rumours around, so from a PR point of view it might be good to dispel them.
+GWRHelp: @132693 Hi Ed. We do not own trains to sell, some HST's have come to the end of their lease with GWR as planned. More trains than usual are in for repair at present, winter weather conditions have attributed to this - Josh
+Customer: @GWRHelp @132693 So what was the cause of the issues in September? And October? And November? It's only recently gotten cold....Unless your trains only operate in temperatures above 18deg...#porkies
+Customer: @GWRHelp Thanks Josh. Can you confirm that there are no problems at the depots that are delaying repairs to trains? Your customers hear a lot of rumours otherwise!
+GWRHelp: @132693 There are no issues at depots that is impacting train provision. Our maintenance teams are working hard to get all trains in service- Josh
+Customer: @GWRHelp Thanks. It might be worth suggesting to the GWR marketing that they do some reputational damage limitation, perhaps sending staff out to stations and trains to hand out information and reassure customers.  GWR is taking a pasting currently!
+GWRHelp: @132693 Thanks Ed, I'll pass this on. Phil.
+Customer: @132693 @GWRHelp No chance, Ed. That costs money and I'm not spending money on shit that doesn't give me a return! Haha sucker!",8,5,3,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000042,"Customer: @GWRHelp I have just been told I have to pay for a ticket on a CC train to Cheltenham, despite taking the route you advised. WTF! 2/2
+GWRHelp: @360452 Hi Chloe. Apologies for the alternations today. This is due to engineering works. Which journey have you made please? - Josh
+Customer: @GWRHelp London to Cheltenham. Apparently you didn’t set up a ‘ticket conveyance’?
+GWRHelp: @360452 Which trains did you take please Chloe? - Josh
+Customer: @GWRHelp This was the paper I was given - I was told that my ticket would be valid on these trains. Conductor on Bristol-Chelt felt otherwise. https://t.co/klFC9a4dCF
+Customer: @GWRHelp Didn’t pay in the end as got to Cheltenham but horrible way to end what was already a horrible journey. Please could this be investigated?
+GWRHelp: @360452 Apologies for any conflicting information today Chloe. I appreciate the improvement works have made certain journeys challenging - Josh
+Customer: @GWRHelp I need to get back to London tomorrow - please can you advise what trains I can catch with my pre-booked ticket? Was meant to be on 13.46
+GWRHelp: @360452 Can you send me a photo of your ticket please? - Josh
+Customer: @GWRHelp Thanks in advance for your help https://t.co/4TLqrQGNY7
+GWRHelp: @360452 Thanks Chloe. You will need to make the following journey - Josh https://t.co/DHrGKA60nw
+Customer: @GWRHelp Is there any way that doesn’t involve the bus? Can I not go back via Bristol again?
+Customer: @GWRHelp Or could I start earlier so I get home on time?
+Customer: @GWRHelp Or via Birmingham?
+Customer: @GWRHelp Just looked at Birmingham trains and this seems like the quickest option. Please can you confirm my ticket will be valid?
+GWRHelp: @360452 1/2 You are fine to travel earlier as time restrictions have been lifted. You cannot travel via Birmingham as your ticket won't be valid
+GWRHelp: @360452 2/2 Your best option with the least amount of buses would be the following journey - Josh https://t.co/Hr7r5PxUho
+Customer: @GWRHelp Tbh I think that’s ridiculous - GWR should pay the conveyance to allow their passengers who booked in advance to travel to their destination
+Customer: @GWRHelp In the quickest time possible. As I understand it GWR could do this, but are choosing not to, to save money at the expense of your customers
+Customer: @GWRHelp I have already spent 2 hours longer than I should have done on trains - GWR could ease this pain but are too tight to do so
+GWRHelp: @360452 As buses are running ticket acceptance is not in place on certain routes, apologies for the difficulty the emergency works cause. Phil.
+Customer: @GWRHelp Even though it is taking twice the time to get to destination and you failed to notify your advance booking customers? Terrible service
+Customer: @GWRHelp You have ruined my weekend and I have lost money in tickets booked for events I was unable to attend - for which I will receive nothing
+Customer: @GWRHelp And I can’t even get back home on time because instead of one change GWR think it’s ok to send me on a journey with 4 diff legs
+GWRHelp: @360452 1/2 We were notified of the works at late notice by Network Rail, meaning we couldn't get the information out sooner.
+GWRHelp: @360452 2/2 Apologies again for the difficulty this causes, I do appreciate this is inconvenient. Phil.
+Customer: @GWRHelp You could ease those difficulties with ticket conveyance - chosen not too. Apologies don’t cut it - you’ve chosen £ over your customers.
+Customer: @GWRHelp Enough time to arrange replacement buses = enough time to email your customers.
+GWRHelp: @360452 If you bought a ticket from our website in advance, you should have received an email from us on Tuesday about the emergency works. Phil.
+Customer: @GWRHelp I did book in advance through your website and I received no such email.
+Customer: @360452 @GWRHelp Nice to see @GWRHelp not giving a shit about customers as usual.
+GWRHelp: @360452 Really sorry for this Chloe. I will make sure this is fed back. Can you PM your email address please? - Josh https://t.co/Fg4VGS9qNo
+Customer: @360452 @GWRHelp Standard @GWRHelp you wouldn’t receive compensation from these crooks even if the train derailed.",33,21,12,,FALSE,FALSE,BOOKING / TICKETS,complaint,unresolved,good_candidate
+GWR_000043,"Customer: @GWRHelp delays took me nearly 2 hours to go 5 miles. Not impressed 🙅🏼
+GWRHelp: @366874 Hi Phoebe. Sorry to hear this. What service did you travel on please? Rach",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000044,"GWRHelp: Due to a person being hit by a train between Swindon and Didcot Parkway all lines are  currently blocked. Replacement road transport has been requested to operate between Swindon and Didcot Parkway in both directions.
+Customer: @GWRHelp Terrible news, so trains are terminating at reading then?
+Customer: @GWRHelp It is awful news. Can I ask whether this means those of us sitting on the 10.41 Swindon to Paddington are going to be unloaded onto road transport?
+Customer: @GWRHelp Are there any trains running from Swindon to Paddinngton/London not impacted by this?
+GWRHelp: @283080 Hi there. Which journey are you trying to make please? - Josh
+GWRHelp: @283076 Hi Liam. Once more information is available there will be announcement on-board to advise. Lewis
+GWRHelp: @283332 Hi. Services aren't running between Swindon and Didcot Parkway at the moment. Replacement buses are in operation instead. Lewis
+Customer: @GWRHelp @283332 What about buses for services that can’t get into Swindon, eg B Pway?
+Customer: @GWRHelp Changed at Chippenham to a train heading to Paddington (I think via Melksham). Do you know what time it will arrive into London?
+Customer: @GWRHelp I'm booked on the 1.45 Paddington to Swansea. Is it likely to run and if so is first class declassified as will have double the numbers
+Customer: @GWRHelp What’s happening between Reading and Paddington?
+GWRHelp: @252176 There are speed restrictions in place due to a track problem. Lewis
+GWRHelp: @283334 Hi Scott. That service is currently still due to run. Any decision to declassify First Class will be taken at the time based on conditions. Lewis
+GWRHelp: @283081 @283332 Which journey are you trying to make please Michaela? - Josh
+GWRHelp: @283332 Hi there. What train are you on please? - Josh
+Customer: @GWRHelp Hi Josh, Lewis already got back to me. I’m going from BPway to Swindon, so on a train to Reading where I change for a different train to Didcot, then bus to Swindon apparently!
+Customer: @GWRHelp I’m meeting the 13.30 train at Reading from Bristol, do you know how long the delay might be? Thanks
+GWRHelp: @167365 Hi. Do you mean the 13:30 train from Bristol Temple Mead or a service at Reading at 13:30? Lewis
+Customer: @GWRHelp It’s scheduled to arrive in Reading at 13.30.
+Customer: @GWRHelp Obviously a tragic incident. But the lack of real time information and help at Paddington is abysmal. Also very frustrating that currently tickets can’t be used on alternative routes
+Customer: @GWRHelp Is the 1.36 from Paddington to Cheltenham Spa going to go?
+Customer: @GWRHelp I’ve now had to make alternative travel arrangements as the staff could not guarantee I would be in Swansea for when I needed to be. Can I apply for compensation?
+GWRHelp: @283733 Hi Ally. Sorry staff weren't able to help. If the ticket is unused you can claim a full refund via the original point of purchase. Lewis
+Customer: @GWRHelp Hi. Does this effect trains going from Bristol TM - London Pad? Or will the train just go a different route after Bath?
+GWRHelp: @148014 Hi Natasha. Services are being rerouted where possible. What time are you travelling? Lewis
+Customer: @GWRHelp Thankyou. The staff were great, it was just the complete lack of information at their disposal that was so frustrating
+GWRHelp: @167365 Where are you travelling to please? - Josh
+Customer: @GWRHelp On the 1pm from Paddington to Temple meads what's the best way to get to Cardiff?
+Customer: @GWRHelp I’m meeting someone off the 12.32 train from Bristol Templemeads arriving in Reading at 13.30
+Customer: @GWRHelp Do you know what time it might arrive in Reading bearing in mind the delays? Thanks
+GWRHelp: @167365 The 12:32 service is from Bristol Parkway. It's currently expected at Reading at 13:54. Lewis
+GWRHelp: @284130 Hi Chris. There is a train from Bristol Temple Meads to Cardiff at 14:54. Lewis
+Customer: @GWRHelp Thank you 👍🏽
+Customer: @GWRHelp Is the 2.28 reading to bath definitely running
+GWRHelp: @284127 Hi. That service has been cancelled I'm afraid. Lewis
+Customer: @GWRHelp @284127 Hi - we were meeting my wife’s 81-yr old godmother at Kemble. Think she’s on a coach between Didcot &amp; Swindon now. Any clue when it might arrive? We’re driving to Swindon station to meet her. Thanks for all the info.
+Customer: @GWRHelp @284127 She was due to be on the 1336 out of Paddington to Cheltenham. I believe she’s been on a bus for 20-minutes now.
+Customer: @GWRHelp Did you declassify? There's currently 3 women who are probably over 70 standing. Along with 10-15 others. Also impossible to get to a toilet or get food/drink
+Customer: @GWRHelp Terrible situation. Thoughts to all. Have lines reopened?
+Customer: @GWRHelp 14.26 &amp; still no sign of the train 🚂 🤦🏻‍♀️
+GWRHelp: @167365 It is just outside Reading now so should arrive in the next couple of minutes. Lewis
+GWRHelp: @285419 Hi Harriet. The 14:28 service is running. Lewis
+Customer: @GWRHelp Catching the 15:30 train, am worried now as the 15:00 has been cancelled &amp; pretty much all are cancelled from Parkway
+GWRHelp: @284128 @284127 Hi Andrew. Sorry I couldn't reply earlier. Do you know what time she left Didcot? Lewis
+Customer: @GWRHelp @284127 My guess is about 1.35? Not sure. No sign of bus at Swindon...Cant be long now
+GWRHelp: @285892 Hi Carl. The lines are open again now. Lewis
+Customer: @GWRHelp Many thanks.
+Customer: @GWRHelp @284127 It was all good in the end. Hope network and passengers are calmer now. Take care.
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan",54,29,25,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,question,unresolved,good_candidate
+GWR_000045,"Customer: @GWRHelp can you help your train drivers be on time for the trains they're supposed to be driving
+GWRHelp: @556530 Hi Rory. They can often be delayed from their previous journey. Lewis
+Customer: @GWRHelp Too lean on the drivers maybe?
+Customer: @GWRHelp Also, why do you remove the platform announcements from the board before the train is scheduled to depart?
+GWRHelp: @556530 Can you explain what you mean please Rory? - Josh
+Customer: @GWRHelp About 3 or 4 minutes before the train is set to leave it is removed from the board so you don’t know what platform it’s on
+GWRHelp: @556530 Hi. They are removed for safety reasons to prevent customers rushing through the station trying to make the train at the last minute. Lewis",7,4,3,,FALSE,FALSE,ROUTE / TIMETABLE / STATION,question,unresolved,good_candidate
+GWR_000046,"Customer: @GWRHelp can you do anything to help me out?
+GWRHelp: @335638 Apologies for the delayed response Stephen. I can see the service has since called at Reading and Newbury- Hopefully this made some space? P
+Customer: @GWRHelp No it didn't improve at all.  I've never seen overcrowding like this before
+GWRHelp: @335638 Apologies for the difficult conditions. Rach
+Customer: @GWRHelp Not your fault.  You guys have reacted in the best way possible - extremely professionally
+GWRHelp: @335638 Thank you Stephen. New trains with more capacity are coming - I do hope your future journeys are better. Phil.",6,3,3,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,resolved,good_candidate
+GWR_000047,"Customer: @GWRHelp Do I need photo id in order to use a weekly season ticket? Clapham Junction to Oxford?
+GWRHelp: @277372 Hi Jason. Are you purchasing one or do you already possess the season ticket please? - Josh
+Customer: @GWRHelp I need to purchase one. Thanks
+GWRHelp: @277372 You will need a photocard - If you take a passport photo with you to the ticket office you can obtain one free of charge. Phil.",4,2,2,,FALSE,FALSE,BOOKING / TICKETS,question,resolved,good_candidate
+GWR_000048,"Customer: @GWRHelp hi, do you have pram accessibility on trains between Swindon and Bristol templemeads?
+GWRHelp: @137391 Hi Becky. Prams need to collapsed prior to boarding the train and then stored in the luggage areas. Lewis",2,1,1,,FALSE,FALSE,ACCESSIBILITY / SPECIAL ASSISTANCE,question,resolved,good_candidate
+GWR_000049,"Customer: @GWRHelp GWR is a joke, my trains been cancelled and my plans for tonight ruined, cost me time and money
+GWRHelp: @483695 Hello Abi. Can you confirm which service this is please? - Jordan
+Customer: @GWRHelp 15:27 portsmouth &amp; Southsea to Warminster
+GWRHelp: @483695 The disruption was due to earlier signalling problems which have now been fixed. - Jordan
+Customer: @GWRHelp Well that’s great but my train has already been cancelled and I’m gonna miss a gig I had tickets for so???
+GWRHelp: @483695 If delayed by an hour you can claim compensation here: https://t.co/kZncdam7bx. - Jordan",6,3,3,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000050,"Customer: @GWRHelp I emailed about refund last Friday. When will I hear back?
+Customer: @GWRHelp Just so you know - legally you have to pay me back within 14 days. https://t.co/loofq6OCb8 https://t.co/jloB4rjOJR
+GWRHelp: @134107 Hi Imo. Have you posted the tickets with the refund form? Refunds can take up to 28 days to be processed from when we receive the tickets. Phil.
+Customer: @GWRHelp No I wasn't told to do that by your team. Only to email which I have done - with a photo of the ticket. Do I have to post as well? If it takes up to 28 days then I can take legal action?
+Customer: @134107 @GWRHelp Haha, I don't give a fuck about customer refunds! I hold back all the funds until the next financial year to make the bottom line look better to my shareholders! #fuckthecustomers
+GWRHelp: @134107 To confirm, is this an unused ticket refund, or a claim for delay compensation? Phil.
+Customer: @GWRHelp Claim for delay compensation
+Customer: @134107 @GWRHelp Ha ha ha ha ha ha ha. 14 days? My last one took 7 months and I had to chase it twice. Good luck.
+GWRHelp: @134107 Thanks, this is handled separately to a refund. We'll investigate the delay and get back to you with may compensation due. We aim to do this within 20 days but we have a backlog at present so I can't guarantee this timescale. Phil.
+Customer: @127296 @134107 @GWRHelp must have been 7 months before my financial year. See what we do is hold all the refunds back until then to make our.m bottom line look better to our shareholders! Fuck the law, but more importantly, fuck the customers! Ha, got ya by the balls!
+Customer: @GWRHelp So is my email sufficient? Do you realise you are breaking the law by not issuing a refund within 14 days?
+GWRHelp: @134107 Your email will be sufficient. Refunds are only provided on unused tickets. If you travelled but were delayed this is a compensation claim. Regrettably these take longer to process. Lewis
+Customer: @GWRHelp How long do you legally have to issue my compensation claim?
+GWRHelp: @134107 There is no timeframe but we try to process as quickly as possible. At the moment claims are taking around 20 days. Lewis
+Customer: @GWRHelp So you are under no legal obligation to issue compensation within a specific time frame?
+GWRHelp: @134107 There is no timeframe but we aim to process claims as fast as possible. Lewis
+GWRHelp: nan",17,10,7,,FALSE,FALSE,REFUND / COMPENSATION,question,unresolved,good_candidate
+GWR_000051,"Customer: As if having to go to Swindon isn’t bad enough, looks like this journey will take 3+hrs due to a complete lack of @GWRHelp
+GWRHelp: @244572 Hi Tony. Sorry for the problems today. What service are you travelling on? Lewis
+Customer: @GWRHelp The non-existent 11:30 Paddington -Swindon
+GWRHelp: @244572 Can you send me your booking reference or a copy of your ticket please? Rachel
+Customer: @GWRHelp  https://t.co/VIcTfwGK7R
+GWRHelp: @244572 Due to upgrade work taking place on the network, the timetable has been revised since the booking was made. Apologies you didn't hear from us about the works. Your ticket is valid on any service throughout the day. - Jordan
+Customer: @GWRHelp Balls.
+Customer: @GWRHelp Why didn’t I hear about this?
+Customer: @GWRHelp Why do Don’t your help desk tell me this?
+GWRHelp: @244572 We advise customers to check their journey before travelling through https://t.co/kSQp5pCyxo . Station staff at the Help Desk would also be able to advise of the works. - Jordan
+Customer: @GWRHelp Station staff I spoke to. Not one told me how much my travel was going to be changed. The just told me Auto take a different train",11,7,4,,FALSE,FALSE,BOOKING / TICKETS,question,unresolved,good_candidate
+GWR_000052,"Customer: @GWRHelp hi guys, why is the 5:34 from honeybourne to Paddington cancelled? Looks like the only station you're not calling at?
+GWRHelp: @425887 Good morning Kim. Sorry for the delay, next train from Honeybourne 06:43. Regards Roger.
+Customer: @GWRHelp can you tell me why the 5:34 was cancelled  though? as it looks like the only station it's not calling at?
+GWRHelp: @425887 Good morning Kim. All down to poor rail conditions, sorry for the delay. Regards Roger.",4,2,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,question,resolved,good_candidate
+GWR_000053,"Customer: @GWRHelp https://t.co/lzO6Qm3Lvc
+GWRHelp: @147543 Thank you for sharing, Mitchell! - Jordan",2,1,1,,FALSE,FALSE,OTHER,other,resolved,bad_candidate
+GWR_000054,"Customer: .@GWRHelp No catering at all on 19.48 to Gloucs and Worcs. Compares very badly with the superb service I've had today on @120576
+GWRHelp: @249205 @120576 Sorry for the lack of this facility on board Mark, I appreciate it is disappointing we couldn't avoid this today. Phil.",2,1,1,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000055,"Customer: @GWRHelp Can you tell me what the cheapest (standard) single ticket (with Network Railcard) is that I can buy on your website from Maiden Newton to Putney (via Salisbury). I want to travel this Friday (1st Dec) on the 1143 from Maiden Newton.
+GWRHelp: @121204 Hi Paul. This will cost £47.50 for a Super Off Peak day single. Rachel
+Customer: @GWRHelp Thank you, Rachel. I was told by GWR live chat that there is a Super Off-Peak Single (with Network Railcard) for £23.95 for this journey but it's not valid via Salisbury. Do you know if this ticket is available on your website by a different route please?
+GWRHelp: @121204 No problem Paul. For this fare you will need to travel on this service below:
+GWRHelp: @121204  https://t.co/s7DTK6OMN1
+Customer: @GWRHelp Thank you. GWR Chat told me today this ticket isn't valid via Salisbury (see attached screenshot) but the 1529 from Yeovil Junction to Clapham Junction in your image goes via Salisbury. This is confusing. Which is correct please? https://t.co/d7KgEVbAAr
+GWRHelp: @121204 The £23.95 ticket isn't vaild to change at Salisbury it is only valid on that route that I sent you a photo of. Rachel
+Customer: @GWRHelp Thank you Rachel. Does that mean I can’t make a break of journey at Salisbury and continue my journey later that day. I though I could make a break of journey on this ticket. If you could clarify please. Thank you.
+GWRHelp: @121204 Yes correct. I would advise purchasing the £32.50 anytime day single if you wish to break your journey up at Salisbury. Rachel
+Customer: @GWRHelp Hi Rachel, can you tell me what the actual restriction is on this ticket is that prevents me making a break of journey at Salisbury? Your website says break of journey is allowed on this ticket. I thought it was allowed. I just want to make sure. Thxs
+GWRHelp: @121204 For the £23.95 ticket? Rachel
+Customer: @GWRHelp Yes please.
+GWRHelp: @121204 This is the restrictions for the £23.95 ticket: https://t.co/N0TylHZRVt. Rachel
+Customer: @GWRHelp Oh great, thanks for the link. So a break of journey at Salisbury is allowed after all.
+Customer: @GWRHelp Rachel, today you told me the cheapest fare was £47.50, when it's £23.95. You've told me I can't change trains at Salisbury (unless I buy a £32.50 ticket), when in fact a break is allowed at Salisbury on my ticket. GWR Chat told me my ticket is NOT valid via Salisbury when (1/2)
+Customer: @GWRHelp ...in fact it IS valid Salisbury. Why all this incorrect information? What is the best channel for me to escalate this as a complaint please? All this incorrect information from GWR today is appalling. (2/2)
+GWRHelp: @121204 Hi Paul, sorry for any confusion. You can break your journey at Salisbury on that ticket yes, the route is Not Via London there's no restriction for Salisbury. To make a complaint email __email__ -Andy
+Customer: @GWRHelp Thank you Andy. That's prefect. That's all I needed to know. I will raise this as a complaint because how can customers be sure they're buying the right ticket if GWR don't have a clue about the validity of the tickets they are selling - as can be seen from today's conversations.
+Customer: @121204 @GWRHelp Not just an issue with GWR, but other companies unfortunately. It seems that some staff are either confused, or deliberately attempt to sell more expensive tickets than necessary to passengers. Happened to me a number of times.
+Customer: @130866 @GWRHelp @GWRHelp were definitely telling me I needed to buy a more expensive ticket for my journey, when the cheaper one I was asking about fully covered my journey requirements. 😡",20,12,8,,FALSE,FALSE,BOOKING / TICKETS,question,resolved,good_candidate
+GWR_000056,"Customer: Hi @9540 I'm collecting Lanyards, trying to become the UK record holder. Would you have a FGW lanyard to spare? :-)
+GWRHelp: @159478 Hello! If you DM us your details i'm sure we can get one sent to you :) Grant
+Customer: @9540 Thank you. I've sent you my details :)
+GWRHelp: @159478 Great - thankyou! Leave it with us and we'll see what we can do :) Grant
+Customer: @9540 thank you for sending me this FGW lanyard. #firsttrainlanyard http://t.co/bIfAZb4vDm
+GWRHelp: @159478 You're welcome! Glad it got to you ok :) Grant
+Customer: @GWRHelp @159478 Can I have one to add to my collection? :-)",7,4,3,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,request,resolved,bad_candidate
+GWR_000057,"Customer: @GWRHelp On delayed rail repl coach to BPW. Have adv ticket on 17.48 to SOU. No chance of making this. Can we travel on later service?
+GWRHelp: @702902 Hi Daniel. Tickets will be valid on later services, please speak with station staff for assistance with this. Phil.",2,1,1,,FALSE,FALSE,BOOKING / TICKETS,question,resolved,good_candidate
+GWR_000058,"Customer: First cup of tea 🙂 with cake 🍰🤗 @GWRHelp hoping for T @ The Ritz https://t.co/eTK612oB6u
+GWRHelp: @675423 Hi Sharon, enjoy the journey! What do you think of the fruitcake? It's a personal favourite of mine... -Andy
+Customer: @GWRHelp It was very enjoyable thank you 🙂
+GWRHelp: @675423 Fab! Glad to hear it. :) Rach
+Customer: @GWRHelp Hoping to have another slice on the way back tomorrow
+GWRHelp: @675423 Ooo I recommend the shortbread! Rach",6,3,3,,FALSE,FALSE,OTHER,other,resolved,bad_candidate
+GWR_000059,"Customer: Took a ride on the new @GWRHelp IETs today. Great way to spend the day off work. No complaints from me. #GWRNewTrains #gwradventures https://t.co/fnkxN5F8kn
+GWRHelp: @395318 Hi Ashley. Glad to hear you enjoyed your first trip on our IET. Have a great evening - Josh",2,1,1,,FALSE,FALSE,OTHER,other,resolved,bad_candidate
+GWR_000060,"Customer: Was physically unable to board the @GWRHelp train this evening. Too many passengers, not enough carriages. Ah well. https://t.co/AUq9xSpZ5k
+GWRHelp: @121424 Hi James. Apologies for this. What journey are you making? Lewis
+Customer: @GWRHelp Was intending to take the 17:17 BRI to WOR. However this was ""delayed"" so attempted to catch the 17:26 BRI departure to Taunton above.
+Customer: @GWRHelp In the end I caught the 17:17 which eventually arrived departed Bristol at 18:04 47 minutes late.
+GWRHelp: @121424 Really sorry for any inconvenience caused as a result of the delay James - Josh
+GWRHelp: nan",6,3,3,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000061,"Customer: @GWRHelp after a long day at college I’m sitting on the floor because there’s not enough benches on the platform ☹️☹️ https://t.co/kBPH9cD6Wf
+GWRHelp: @120652 Hi Rachael, sorry for any discomfort. Which station is this? -Andy
+Customer: @GWRHelp This is at Guildford station
+GWRHelp: @120652 Hi Rachael. Guildford is a South Western Rail Station, not one of ours. Lewis
+Customer: @GWRHelp My apologies
+Customer: @GWRHelp @SW_Help maybe something you can look into?
+GWRHelp: @120652 @SW_Help Not a problem Rachael. Have a nice day. Natalie",7,4,3,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,information,resolved,ambiguous
+GWR_000062,"Customer: @GWRHelp hi, I was just wondering if a bag has been handed in between Newport &amp; Salisbury today? The train departed Newport at 14:44 today
+GWRHelp: @430327 Hi Charlotte. We are not aware of anything that has been handed in. Please log the item at https://t.co/h8I7Lay827 you will be contacted if anything is handed in. I hope it turns up :) - Josh",2,1,1,,FALSE,FALSE,BAGGAGE / LOST PROPERTY,question,resolved,good_candidate
+GWR_000063,"Customer: @GWRHelp what’s the deal with the train timetable today.. your app and trainline day very different arrival times into Bath https://t.co/9z44Z35WID
+GWRHelp: @375950 Hi Shell, apologies for the delayed response. Both appear to show 1010. Phil.",2,1,1,,FALSE,FALSE,ROUTE / TIMETABLE / STATION,question,resolved,good_candidate
+GWR_000064,"Customer: Fast train services going through, no mercy for Langley passengers. Need better connection to London from Langley station @GWRHelp
+GWRHelp: @400148 Hi Debansu. Apologies for the delays to your journey. I do appreciate this is frustrating. 1/2
+GWRHelp: @400148 Services have been delayed/cancelled due to an earlier injured trespasser on the line. 2/2 Rach",3,1,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,resolved,good_candidate
+GWR_000065,"Customer: GWR trains seem to be taking an extremely liberal approach with their on-board WiFi... @GWRHelp https://t.co/qiwcDYNCuq
+GWRHelp: @675407 Hi Alice! Sorry about this, just an issue with some devices not displaying it properly. Should look something like this... -Andy https://t.co/hqex7KuJ4V
+Customer: @GWRHelp @675407 Great example of the importance of good copy and not relying solely on icons to convey context and meaning. A lesson for all designers! https://t.co/q2prStaEa4
+GWRHelp: @675406 @675407 Yes good point Jody! Will pass this on to the Wifi team. -Andy
+Customer: @GWRHelp @675406 @675407 also red X on a redish background - they need to go back to HTML design school.
+Customer: @675406 @GWRHelp @675407 Bad choice of colours too!
+GWRHelp: @154962 @675406 @675407 The actual design isn't red on red, it was just a quick paint job to illustrate! -Andy
+Customer: @GWRHelp @154962 @675407 But without the icons it doesn’t convey the right message. Design it so message makes sense if icons don’t load and it’s fail safe.
+GWRHelp: @675406 @154962 @675407 Thanks Jody - Appreciate what you're saying and will get this passed on. Phil.
+GWRHelp: @675406 @154962 @675407 We've raised it with our Wifi team and they will amend the copy in the next development update. Thanks everyone for your feedback. -Andy
+Customer: @GWRHelp @675406 @154962 @675407 Just try English!  You are welcome to..., you are not welcome to....
+Customer: @675406 @GWRHelp @154962 @675407 And even more important if you are sight-impaired, where images don’t necessarily convey semantics!
+Customer: @675409 @675406 @GWRHelp @675407 or at least make the whole thing visual :) https://t.co/ucYScX7rBo
+Customer: @154962 @675409 @675406 @GWRHelp @675407 Like this? https://t.co/CSwjH7Xhff
+Customer: @GWRHelp @675407 @651703 terrible design.
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan",45,10,35,,FALSE,FALSE,TECHNICAL / WEBSITE / APP,complaint,unresolved,good_candidate
+GWR_000066,"Customer: @GWRHelp Why are you so bad??????? https://t.co/p6Qq767SgU
+GWRHelp: @486386 Hi Pete. There have been signal problems today. Apologies for the delays and for any problems these caused. Lewis",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000067,"Customer: @GWRHelp Submitted compensation claim on 7th July, but still not received. On 16/9 you said cheque would arrive by end of Sept. Early Oct you said end of Oct. 8/11 you said 10 days. Today you tell me to ring back on Monday. @121428 pay within 14 days.
+GWRHelp: @231952 @121428 Hi there. Really sorry for the time this has taken. What is your reference please? - Josh
+Customer: @GWRHelp GWRR170707BZBC
+GWRHelp: @231952 Thanks Niall. I will pass this on to my contact in customer support to look into this. Once I hear back I will be in touch  - Josh",4,2,2,,FALSE,FALSE,REFUND / COMPENSATION,complaint,unresolved,good_candidate
+GWR_000068,"Customer: Wow @121203 @GWRHelp you snazzified our trains! High St #Swansea is looking well classy! https://t.co/OYLGK2e21s
+GWRHelp: @709810 @121203 Pleased you like them, Mary! #GWRNewTrains :) - Jordan",2,1,1,,FALSE,FALSE,OTHER,other,resolved,bad_candidate
+GWR_000069,"Customer: Hi @GWRHelp. Was the 15:31 Totnes train late into Exeter St David’s this afternoon? Trying to locate a traveller who seems to have missed their connection to Axminster...
+GWRHelp: @132089 Hi Amy. It was 35 minutes late arriving into Exeter St Davids at 16:38. Lewis
+GWRHelp: nan",3,1,2,,FALSE,FALSE,ROUTE / TIMETABLE / STATION,question,resolved,good_candidate
+GWR_000070,"Customer: @GWRHelp @127465 any chance in reducing the number of announcements? Many are pointless/long.AtTempleMeads regularly hear 5 separate
+Customer: @GWRHelp @127465 Announcements about single train when on platform. On some trains is just as bad. Actual useful info gets lost&amp;disrupts a peaceful journey.
+Customer: @GWRHelp @127465 Travelling in Italy over the summer &amp; difference in announcements on trains &amp; at stations was striking and made more a more pleasant journey
+GWRHelp: @589700 @127465 Hi there. Sorry you feel like this. Announcements are needed for safety purposes and to keep customers informed- Josh
+Customer: @GWRHelp @589700 @127465 When they go on and on people just switch off and don't listen to them.  Can't people walk anywhere without falling over - No need to say
+Customer: @GWRHelp @127465 Hi, I don't doubt some are but are 4 or 5 platform announcements in 2-3 minutes necessary? Many airports are free of them! Are they unsafe?
+Customer: @GWRHelp @127465 The DfT's note on removing road signage clutter is interesting/comparable. Info overload can decrease safety. Ofcourse some are still needed",7,6,1,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000071,"Customer: @GWRHelp Really disappointed with your service between Bridgend and Bristol TM today. No prior warnings of a replacement bus service. If I’d of known I would’ve gone in the car. Let down again by the “Great” British public transport system.
+GWRHelp: @748859 Hi Ryan. These works have been advertised through National Rail Enquiries and on our website:  https://t.co/vTd6jwaTk9. Sorry for any problems they've caused. Lewis
+Customer: @GWRHelp That’s not a good enough reply. Not everyone is going to check the website before travelling. It was a spontaneous decision to travel today. I was told nothing in the station ticket office, no announcements. “You should’ve check the website” is a terrible excuse.
+Customer: @748859 @GWRHelp Shouldn’t have to check your website, your staff should inform passengers before they board, that’s just common sense surely. What about older generations who don’t use the internet?
+GWRHelp: @748859 Customers are always advised to check prior to travelling, especially at weekends when the majority of works take place. Bridgend is an Arriva station not one of ours but there should have been posters on display advertising the works. Lew
+GWRHelp: @748862 @748859 Hi Hannah. Bridgend isn't one of our stations, it is manged by Arriva but there would have been posters at the station as well. Lewis
+Customer: @GWRHelp I’m really not satisfied at all with what you’re saying. When you’re backed into a corner about policy, you just palm me off onto another company. Really disappointed with your customer service. I will be looking into more formal avenues of complaining about this.
+GWRHelp: @748859 To make a formal complaint please email our Customer Support team at __email__. Rach",8,4,4,,FALSE,FALSE,ROUTE / TIMETABLE / STATION,complaint,unresolved,good_candidate
+GWR_000072,"Customer: Hi @GWRHelp the ticket office is closed at my station. There are no machines. The train is to crowded to reach the train manager. Do I get a fine the other end for this?
+Customer: @139600 @GWRHelp This happened to me last week and it was ok there was no fine
+Customer: @464686 @GWRHelp Thanks. I've never encountered it before. I used season tickets for years.
+GWRHelp: @139600 @464686 Hello Rachel. You may purchase a ticket at the first opportunity either aboard or at the destination. - Jordan
+Customer: @GWRHelp @464686 Thanks Jordan. That is exactly what happened. I appreciate the reply.n
+GWRHelp: nan",6,4,2,,FALSE,FALSE,BOOKING / TICKETS,question,resolved,good_candidate
+GWR_000073,"Customer: @GWRHelp please turn the heaters off on SVB line.  It gets packed and hot - we can't breathe.  We don't need heaters.
+GWRHelp: @552112 Hi Mandy. Apologies for the difficult conditions. What was the scheduled departure time of this service please and which carriage? Rach
+Customer: @552112 @GWRHelp @GWRHelp  so yet again 2 coaches for btm to Cardiff on 17.20, what’s the reason tonight? Couldn’t be bothered to attach another one?
+GWRHelp: @323870 @552112 Hi Jenny. This is due to more trains than usual being in for repair. Apologies for this - Josh
+Customer: @GWRHelp @552112 Always the same thing but I heard it’s all been about pushing the new trains out so engineers to fix older ones!!!!!
+GWRHelp: nan",6,3,3,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000074,"Customer: Thanks @GWRHELP for not meeting us with a ramp Not going to get home for hour &amp; 1/2 instead of 20 mins. #Oxford
+#Didcot
+GWRHelp: @473633 Hi Sofie. Sorry to hear this. Did you have booked assistance? Rach
+Customer: @GWRHelp No, but don't bother telling me it's best to book in advance we never know 1/2
+Customer: @GWRHelp when my mum will be well enough to travel and even if we do it doesn't mean you'll get met. 2/2
+GWRHelp: @473633 1/2 Apologies again for the issues you and your mother faced Sofie, I appreciate this is frustrating.
+GWRHelp: @473633 2/2 We do need notice to guarantee assistance but will do all we can when it's not possible to book in advance. Phil.",6,3,3,,FALSE,FALSE,ACCESSIBILITY / SPECIAL ASSISTANCE,complaint,unresolved,good_candidate
+GWR_000075,"Customer: Apologies to @GWRHelp staff at Filton abbey wood who wanted to check my ticket. It was with colleagues on the train at platform 3 #late
+Customer: @GWRHelp Here’s proof that I did indeed have a ticket! https://t.co/CC769asKQA
+GWRHelp: @307375 Hi Paul. What happened? Lewis
+Customer: @GWRHelp Nothing bad, my colleagues had ticket on assumption there were no barriers at Filton AW. Staff wanted to check ticket. Explained situation..
+Customer: @GWRHelp ..as fast as I could as train was pulling into platform. Staff agreed to let me board. I looked a state as I had sprinted to get there !
+GWRHelp: @307375 Pleased to see my colleagues were understanding and and you made the train. Enjoy the rest of your journey. Lewis",6,4,2,,FALSE,FALSE,BOOKING / TICKETS,information,resolved,good_candidate
+GWR_000076,"Customer: @GWRHelp 6:52 st.davids to LND this morning delayed call me cilla black but surprise the rtn this evening also delayed £150 not well spent
+GWRHelp: @286079 Hi Clare. Sorry for the delays today. What service are travelling on this evening? Rach
+Customer: @GWRHelp should be the 19;45 from Paddington to st.davids just frustrating that not a single train I’ve been on this year has run to time
+GWRHelp: @286079 I appreciate this is frustrating Clare, the reason for the delay has yet to be attributed. Rach",4,2,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000077,"Customer: @GWRHelp what an unpleasant experience on a packed train to London Paddington today.  How do you even get to the toilet?  Rammed, overcrowded, stressful - not like your Enid Blyton adverts at all!
+GWRHelp: @473695 Sorry to hear it's crowded on board - Which service are you on please? Phil.",2,1,1,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000078,"Customer: @GWRHelp your website is rubbish. I login in, try to book tickets. asks me to login, says I need to do a proper email address. login again, try to book same tickets, duplicates tickets. It now thinks I'm buying 3 lots of the same journey. WHAT.
+GWRHelp: @508130 Hi Alan, sorry to hear this. Can you try clearing your cache/cookies or using another web browser please? -Andy
+Customer: @GWRHelp i used @123241 instead.",3,2,1,,FALSE,FALSE,TECHNICAL / WEBSITE / APP,complaint,unresolved,good_candidate
+GWR_000079,"Customer: No catering at all on v busy #London train - come on @GWRHelp - get the kettle on !! ☕️👎
+GWRHelp: @811347 Hi Nigel. Which service is this please? Have you spoken to staff on-board about this? Natalie
+Customer: @GWRHelp It was the Plymouth to London train - I joined it from Taunton at 7.18 and it was repeatedly announced no catering at all on board !
+GWRHelp: @811347 Thank you and apologies for the lack of catering facilities on-board. I appreciate this is disappointing. I don't have info as to why this is I'm afraid. Natalie",4,2,2,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000080,"Customer: Bring back the old trains!! I asked for an alcoholic beverage, then get told ‘we don’t give out hot water’ clearly something wrong with my West Country twang, then to be told no card payments!! 🤣🤣🤣 @141614 @GWRHelp
+GWRHelp: @486789 Sorry to see this James. There might be a problem with their card machine. We'd normally accept card payments on-board. Natalie",2,1,1,,FALSE,FALSE,PAYMENT / CHARGES,complaint,unresolved,good_candidate
+GWR_000081,"Customer: @GWRHelp on the 1918 from Paddington. Almost zero updates. Trains flashing by at 100mph but we’re stationary. If there really is a bridge strike issue why are other trains going past us? Dreadful handling of a problem.
+GWRHelp: @730114 Hello. Apologies for the delay, this was due to a road vehicle colliding with a bridge between Maidenhead and Slough. Some lines was affected. - Jordan",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,resolved,good_candidate
+GWR_000082,"Customer: 1 hour and 20 minutes delayed train... this is not why I spend £200 odd on a train ticket each month 😠👎🏽 @GWRHelp https://t.co/yvPROWTDMq
+GWRHelp: @347017 Hi there. Really sorry for this Jade. Delays have been caused by an earlier broken down CrossCountry train - Josh",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000083,"Customer: @GWRHelp absolute joke. Newbury to London delayed 10min yesterday. 10mins today and it terminates in reading. Waste of money non service
+GWRHelp: @522696 Which service did you travel on please, Simon? - Jordan
+Customer: @GWRHelp Today it's the 10:57 to London yesterday it was the 07:47. Delays at Newbury are becoming increasingly frequent
+GWRHelp: @522696 Sorry for the delay today, this was due to earlier signalling problems which impacted the previous journey. - Jordan",4,2,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000084,"Customer: The award for the most shockingly slow/poor Wi-Fi goes to @GWRHelp Early morning, train is empty &amp; signal can barely power a 20w 💡#pointless https://t.co/12YPtnXa4o
+GWRHelp: @283133 HI Mark. Sorry it's slow. Speeds vary throughout the journey based on network coverage. Lewis
+Customer: @GWRHelp No its not, I make this trip weekly &amp; service is always slow. If you’re going to provide a free service, make sure it’s up to the job!",3,2,1,,FALSE,FALSE,TECHNICAL / WEBSITE / APP,complaint,unresolved,good_candidate
+GWR_000085,"Customer: @GWRHelp Just wondering why a single from Swansea to Cardiff is £11 (ridiculous) with a 16-25 railcard?! I usually pay around £10 return😡
+GWRHelp: @498136 Hi Lauren. Where can you see this fare please? Rach
+Customer: @GWRHelp Hi Rach, here - and this is with a railcard applied https://t.co/3CUCLqEYsy
+GWRHelp: @498136 Can you try on our website please. :) https://t.co/DiHkpW5oWw
+Customer: @GWRHelp Just did!! Nothing changed https://t.co/yEfT6yLup5
+Customer: @GWRHelp ?? https://t.co/BWuBFCT7Z0
+GWRHelp: @498136 Can you try clearing your cache and cookies or try another browser please? Rach
+Customer: @GWRHelp I will but my mum just tried on her laptop and it says the exact same
+Customer: @GWRHelp Just cleared them and still got the exact same price (£11 and £11.10). Help please
+GWRHelp: @498136 I'm not sure why, you will need to call our Telesales team, you can contact them on 03457 000 125 to purchase your tickets. Rach
+Customer: @GWRHelp Thanks. If I went to a ticket machine at the station, would it have the £7.35 price?
+GWRHelp: @498136 Yes, as it should be £7.35 for an anytime single from Swansea to Cardiff. Rach",12,7,5,,FALSE,FALSE,BOOKING / TICKETS,question,resolved,good_candidate
+GWR_000086,"Customer: Two platform alterations &amp; delays - now told to get London Paddington train. @GWRHelp seems every time I get a train it is a nightmare. 🙄😡 https://t.co/NSXD7yLebl
+GWRHelp: @335640 Hi Georgia. What journey are you making please? Phil.
+Customer: @GWRHelp Oh Phil. A mere journey from Bristol to Bath. I’m nearly there. It’s been an ordeal. Thanks for ur support through these trying times. Xxxx
+GWRHelp: @335640 Sorry for the difficulty you're having this evening Georgia, I hope your future journeys are better. Phil.
+Customer: @GWRHelp A girl can dream Phil. A girl can dream...",5,3,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000088,"Customer: @GWRHelp day two of my attempts to use the train. The 708 is delayed till 758.
+What's the reason today please?
+GWRHelp: @799113 Hello. There are delays on this line this morning due to signalling problems. Sorry about this. Natalie
+Customer: @GWRHelp @GWRHelp in light of the cancellation of the 708 and the 732, is there realistically any hope of the 758 running? Need to know if it's worth waiting around
+GWRHelp: @799113 The 0753 is expected to run but may be delayed, a fix has been implemented. Phil.",4,2,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,question,resolved,good_candidate
+GWR_000089,"Customer: @GWRHelp is the 9.42 Oxford Marlybone train being held to wait for the late Bristol train please.
+GWRHelp: @542838 Hi. Sorry for the delay. The Chiltern train has left on time I'm afraid. If this was missed then the next train for London will be at 1044.",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,question,unresolved,good_candidate
+GWR_000090,"Customer: NO driver available for the 9. 02 to Paddington from Bristol Parkway  @GWRHelp is not acceptable management!
+GWRHelp: @264585 Hi Gail. Apologies for the delay to your journey. Rach",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000091,"Customer: @GWRHelp so, chaos for my ride into London this morning from Maidenhead and chaos trying to get back tonight from Paddington. 👿
+GWRHelp: @311928 Sorry for the difficulty today Martin, this evening there was a signal fault between Paddington and Hayes. Phil.
+Customer: @GWRHelp @311928 then why was your website saying it was by Ladbroke Grove!?!
+GWRHelp: @131121 @311928 It was, but main effect on services was between Paddington and Hayes. Phil.
+Customer: @GWRHelp why can't your driver apologise or even let us know what's going on? Been stopped for so long and when we do move it's so slow
+Customer: @GWRHelp should have been home by now and not even passed Southall
+GWRHelp: @131121 Hi Julia. Apologies for the lack of announcements on this service this evening. Rach",7,4,3,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000092,"Customer: @GWRHelp I’m completely baffled by the continued active positive news flow about the Hitachi trains. Despite timetabled journey times longer than in the 1970s, it was still 40 minutes late and poured water everywhere. How on earth is this a positive step forward ?
+GWRHelp: @121325 Hi. Back in the 1970s there were fewer stops than currently. It was 40 minutes late due to a late start and a minor technical fault. 1/2
+GWRHelp: @121325 It is a positive step forward as our new trains will bring more capacity, faster journeys and more comfortable. 2/2  Rachel",3,1,2,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000093,"GWRHelp: Planned your weekend adventure yet? Book now at https://t.co/XbEL2juAHi https://t.co/mperK38QKE
+Customer: @GWRHelp Plan my weekend adventure? What on the weekend bus service because of engineering works?
+GWRHelp: @175687 Hi there. Did you purchase this ticket on our website? Rach
+Customer: @GWRHelp No chance better to drive! Always late, always signal problems love to otherwise!
+GWRHelp: @399934 Hello. What journey are you making with us today please? Natalie
+Customer: @GWRHelp One that's always late
+Customer: @GWRHelp Back to work on Monday, booked on the 1044 from Plymouth for a 1800 flight from Heathrow 🤞🤞🤞 hope there are no delays due to storm Brian 🤣
+GWRHelp: @687805 Hi Andrew. I hope your journey goes well on Monday. Have a nice weekend :) Natalie
+Customer: @GWRHelp I hope it’s not 1st class because my experience was appalling
+GWRHelp: @322763 Hi Bex. Sorry to hear this. What issue did you have please? - Josh
+Customer: @GWRHelp Totally ignored by staff. Asked 4 cup of tea, told “walk to the buffet car &amp; get it yourself” while 5 staff chatted. I complained, pointless
+GWRHelp: @322763 Really sorry to hear this. Who did you complain to please? - Josh
+Customer: @GWRHelp GWR, got a response 6 months later saying my email went into spam 🙄
+Customer: @GWRHelp Side bar - service has improved but ...short trains at peak times. Really 😳. Always crowded. Always 😡. New carriages are nice 👍🏾.
+GWRHelp: @336453 Hi Brian. Glad to hear you like the #GWRNewTrains. Apologies for any discomfort. Rach
+Customer: @GWRHelp The adventure being find a seat because there are no reservations.
+GWRHelp: @352715 Hello Muriel. If seat reservations were made and you had to stand, compensation is due through __email__. - Jordan
+Customer: @GWRHelp If by adventure you mean hovering above a biological hazard (your toilet) yesterday..
+Clean your toilets instead of making expensive adverts
+GWRHelp: @399697 1/2 Sorry to hear there was a problem. Trains are cleaned overnight and we do have cleaners en route too.
+GWRHelp: @399697 2/2 If you can report any issues to us at the time we can get them sorted. Phil.
+Customer: @GWRHelp Well, that was as useful as a chocolate fire guard Phil. So basically, deal with it, yeah? There was no guard on the train.
+Customer: @GWRHelp £60 on a train for this. https://t.co/JFadg4zbrF
+GWRHelp: @399697 1/2 If you can let us know at the time, we can arrange for it to be cleaned. It will now have been cleaned overnight in the depot.
+GWRHelp: @399697 2/2 Apologies again for the experience you had on board yesterday. Phil.
+Customer: @GWRHelp Well I’m glad they “get cleaned overnight” that truly makes up for the thousands of people that use and block them during the day 🙄
+Customer: @GWRHelp Your apology means nothing to me, I’m afraid, let’s be honest, you couldn’t care less. Your name may have changed..same old shitty service.
+Customer: @GWRHelp As for the guard, I couldn’t see, nor was I approached by 1. I highly doubt, from experience of said guards, they’d get busy with a plunger
+GWRHelp: @399697 We also have cleaners travelling on trains across the network, apologies this toilet did not get attended to in time. I'll record feedback.
+Customer: @GWRHelp Well I’ve never, ever seen one. Are they disguised like Air Marshals?
+GWRHelp: @399697 No, they wear a uniform. I do hope your future journeys are better. Phil.
+Customer: @GWRHelp Well, I won’t hold my breath Phil, for fear I would die. (A bit like using your toilets).
+Customer: @GWRHelp You were a lot of help to the disabled passenger stuck on Chippenham station last night as the lift was closed!
+GWRHelp: @577132 Hello. Sorry to see this. For any complaints against staff please send full details to __email__ and this will be fully addressed.
+Customer: @GWRHelp Chippenham Street Pastors will be complaining I believe as they helped the lady in the absence if GWR staff
+Customer: @GWRHelp Is this advert saying no dogs, like find the dog other means for the same journey? Is it?
+GWRHelp: @724884 Hi James. Can you please explain what you mean? Rach
+Customer: @GWRHelp The dog is with the family as the train journey start but see like he is everywhere but on the train till reunited with family, no.?
+Customer: @GWRHelp Just me thinking is it a subtle message to say not suitable for dogs?
+GWRHelp: @724884 Dogs are more than welcome on our services, so long as they are on a lead and off seats. :) Rach
+Customer: @GWRHelp Got any new trains yet?
+GWRHelp: @733261 Hi Andrew. Indeed we do. Have you seen the photos on our page? :) #GWRNewTrains Rach
+Customer: @GWRHelp Oh dear they don't work though do they #bringbackbritishrail
+GWRHelp: @733261 They are in operation daily, and generally running without issue. Hope you get to travel on one soon! Phil.
+Customer: @GWRHelp more seats, more trains and more bullshit from GWR.  That advert is completely removed from reality.  Try the 0744 from trow to bristol
+GWRHelp: @581376 Sorry for any crowding you've experienced on board - More carriages with additional seats are coming to this route in January. Phil.
+Customer: @GWRHelp Yeah you've been saying that for the last ten years and nothing has changed.
+GWRHelp: @581376 I hope you notice the improvements that the additional carriages bring in January. Phil.
+Customer: @GWRHelp See my point on the advert though?
+GWRHelp: @724884 I'll make sure your feedback is recorded on this James. Phil.
+Customer: @GWRHelp Good advert. Evokes that spirit of adventure, which was in abundance tonight. Can I claim my taxi fare home for the cancelled train?
+GWRHelp: @459087 Hello. Apologies for the delay to your journey. What service were you booked to travel on please? Rach
+Customer: @GWRHelp Trying to book seats from Reading to Swansea on Jan 2nd and the website not playing ball 🙈
+GWRHelp: @482216 Hi, sorry to hear this, have you tried calling 0345 7000 125, its our Booking Line? AndyD
+Customer: @GWRHelp Are dogs allowed on the rail replacement bus service?
+GWRHelp: @495087 Hi Roger. They are more than welcome, they must be kept off seats though. :) Rach
+Customer: @GWRHelp Hi, Rach. Many thanks for clarifying. Just one more thing ... do dogs need a special ticket to get on the train/bus?
+GWRHelp: @495087 No problem Roger. :) No they don't. Rach
+Customer: @GWRHelp appropriate you've gone with retro look because on recent trip to Cornwall your wifi performed like it was being beamed in from the 1950s!
+GWRHelp: @511189 Hi Liam. Speeds do vary throughout the journey based on network coverage but I am sorry it was slow. Lewis
+Customer: @GWRHelp yes - from slow to really sloooow!
+Customer: @GWRHelp Trying to but there don’t seem to be any trains from London to Stroud on 3 December- finding a train seems to be the adventure
+GWRHelp: @414803 Hi John. The timetable is not yet confirmed for 3 December due to engineering works planned for this weekend. Apologies for the delay in this. Phil.
+Customer: @GWRHelp This is 740% better than any Christmas advert this year. Well done.
+GWRHelp: @697671 Glad you like it Harriet! :) Natalie
+Customer: @GWRHelp It's really lovely. Who did the animation?
+GWRHelp: @697671 The idea was created by advertising agency, adam&amp;eveDDB and the animation was created by production company, Friends Electric :) Natalie
+Customer: @GWRHelp Thankyou Natalie, it's charming.
+Customer: @GWRHelp Maybe future ads can have some people who aren't white, that would be a cool adventure
+GWRHelp: @706340 Hi there. We picked The Famous Five campaign solely for their spirit of adventure, and we felt it was important to remain true to the original books. The broader casting of our commercial reflects our ethnically diverse customer base- Josh
+Customer: @GWRHelp The original book did have Rromani &amp; Jewish ppl. (They were just villains. Bc the original books. were racist.)
+Customer: @GWRHelp But I also I get you didn't make the ad, Josh, sorry for being kinda caustic, but not sorry for the content if it means you pass that feedback along to the advertising dept
+GWRHelp: @706340 We will most certainly feed this back to our marketing team. Rach
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan",92,40,52,,FALSE,FALSE,OTHER,other,unresolved,bad_candidate
+GWR_000094,"Customer: @GWRHelp Kingham station is listed as a place to collect pre paid tickets on your site but there is no ticket machine there and the ticket office doesn't open all day. This should be removed as an option.
+GWRHelp: @265107 Hi Luke. This has to be advertised as there are collection facilities there. If the ticket office is closed customers can travel on the collection reference and can collect at their first opportunity  - Josh
+Customer: @GWRHelp That is not clear anywhere. I would have expected a penalty fare if I didn't have tickets. I also didn't know that you can collect them from any machine even though you have to choose one on the Web site.
+Customer: @GWRHelp The ticket office is also closed most of this week which should be reflected in the list of collection points.
+GWRHelp: @265107 Thanks for the feedback Luke. It has been noted for consideration - Josh
+Customer: @265107 @GWRHelp Depends which website you use. Some do actually say tickets can be picked up from any station. Some even say if station machines are broken then you can travel with the print out and pick up at next working station .",6,4,2,,FALSE,FALSE,BOOKING / TICKETS,complaint,unresolved,good_candidate
+GWR_000095,"Customer: @GWRHelp Hi, I have pre booked tickets for the 15.21 Cardiff Cent to Swindon train but on your website it's not showing, can you advise?
+GWRHelp: @487810 Hi Rebecca. Are you travelling today? There's a service at 1526. Natalie
+Customer: @GWRHelp Hi Natalie, yes traveling today. The ticket says 15.21, I can see the 15.26 online. I'm worried as the 15.21 I have has seats booked.
+Customer: @GWRHelp I've had to buy new tickets for the 15.26 train today, so with my 15.21 tickets, as the were booked in advance, can I still get a refund?
+GWRHelp: @487810 Rebbeca, the ticket you had for the 1521 service would be valid on the 1526 as there is no 1521 service. 1/2 -Rach
+GWRHelp: @487810 As your ticket is an advance purchase it is non-refundable. Can you DM me a photo of your tickets please? 2/2 Rach",6,3,3,,FALSE,FALSE,BOOKING / TICKETS,question,unresolved,good_candidate
+GWR_000096,"Customer: @GWRHelp @121203 NO CALLBACK as promised by three ‘customer service’ operators!! #badcustomerservice @418 @417
+GWRHelp: @603529 @121203 @418 @417 Hello. So sorry to hear this. I have replied to the private message you sent us. Rach",2,1,1,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000097,"Customer: This isn't really a window seat, isn't it @gwrhelp? https://t.co/5c7JxQDorK
+GWRHelp: @649598 Hello Morena. Have you tried the un-reserved carriage for another seat? - Jordan
+Customer: @GWRHelp That's not the issue. This should not be allocated when you book as a window seat.
+GWRHelp: @649598 We can only match preferences to what's available on-board. The earlier you book the better chance you have of getting the desired seats. - Jordan",4,2,2,,FALSE,FALSE,BOOKING / TICKETS,complaint,resolved,good_candidate
+GWR_000098,"Customer: @GWRHelp Hi, what train will be on the first Bristol train from Weymouth tomorrow (18th Nov) and what trips will the SWT branded 158885 that you have be on ?
+Thankyou
+GWRHelp: @236839 Hello Ben. The first train from Weymouth departs 0638. I'm unable to check the type of train until tomorrow morning. - Jordan
+Customer: @GWRHelp It’s usually the same train that does the 2313 into Weymouth. Would you be able to find out what’s running on that tonight please?
+GWRHelp: @236839 Train number 150265 if that helps! :) - Jordan",4,2,2,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000099,"Customer: @GWRHelp just booked 3 journeys to Worcester in December. £150. Need to book 4 more in Jan. Same services. Would total over £280!!! WHY?
+GWRHelp: @689047 Hi James. What journey is this for? Rach
+Customer: @GWRHelp Monday 6.52am Paddington to Worcester Foregate, returning 17.28 on fridays. Same journey. Average £20 more per journey in Jan.
+GWRHelp: @689047 Advance fares between London and the North Cotswolds are not yet open https://t.co/4BYUNd7mJY -Andy
+Customer: @GWRHelp a) Why not? And b) When will they be? And c) is this just a way of squeezing more cash out of people?
+GWRHelp: @689047 The timetable is not yet confirmed for that route, once it is reservations and advance fares will open. Hopeful this will be in the next few weeks. -Andy
+Customer: @GWRHelp So how come I CAN book this journey on several websites but for the highest price only? Seems a little devious.
+GWRHelp: @689047 As my colleague Andy stated above, you can book these but advance fares are not yet available. Rach
+Customer: @GWRHelp but WHY? I'm booking dozens of journeys and find this very frustrating.
+GWRHelp: @689047 Because the revised timetable is yet to be confirmed. Sorry for the time this is taking. Rach",10,5,5,,FALSE,FALSE,BOOKING / TICKETS,complaint,unresolved,good_candidate
+GWR_000100,"Customer: @GWRHelp Excellent service in 1st class on the 16.04 from Plymouth to Reading this afternoon. Well done to the chap with the trolley #polite
+GWRHelp: @447514 Hi there. Brilliant to hear this. I will make sure this is passed on - Josh
+Customer: @GWRHelp @GWRHelp Hello again. I'm on your train from Gatwick to Reading. It arrives at 18.26. The Plymouth train I need leaves at 18.31. Very tight.
+Customer: @GWRHelp I have to get from platform 1 to Platform 7. I think that's a fair distance. I'll speak to the conducter on this train. Thanks.
+GWRHelp: @447514 Hello, platform 7 is very close to platform 1 you don't need to go up any stairs or lifts it's about a 30 second walk. -Andy
+Customer: @GWRHelp Ok thanks. The conducter reckons we'll arrive at 5 or 6 anyway, which are near 7. I'm moving to the front of the train too.
+Customer: @GWRHelp Made it, thanks to the conducter on the Reading train, really helpful. Thanks.
+GWRHelp: @447514 You're welcome, pleased you made the train. Have a lovely evening. - Jordan
+Customer: @GWRHelp Also the train manager has allowed me to use the ticket for the later train. GWR seem to know how to look after customers really well.
+GWRHelp: @447514 Glad to hear it - Hope the rest of the journey goes much more smoothly. Phil.",10,6,4,,FALSE,FALSE,ROUTE / TIMETABLE / STATION,question,resolved,good_candidate
+GWR_000101,"Customer: Great stuff @GWRHelp looking out for the safety of a woman with a peanut allergy on board the 10.30 redruth to London today. https://t.co/QNLbMLX31J
+GWRHelp: @352914 Hi Joanna. This is great to hear :) Which staff members dealt with this and on what part of the journey was this specifically please? - Josh
+Customer: @GWRHelp They are all doing it ongoing, whole team effort to keep one very vulnerable passenger safe. We are all impressed.
+GWRHelp: @352914 Thanks Joanna, will share your comments with their managers. -Andy",4,2,2,,FALSE,FALSE,OTHER,other,resolved,bad_candidate
+GWR_000102,"Customer: @GWRHelp 09.15 to Slough - cancelled, 09.35 not calling at Slough , 09.45 - cancelled. You're an absolute joke of a company.
+GWRHelp: @256088 Hello Oli. Are you travelling from Paddington this morning? Rachel
+Customer: @GWRHelp Yes , no trains to slough from 08.40 to 10.15. is this an acceptable service for GWR?
+GWRHelp: @256088 I can appreciate this is frustrating. If delayed by an hour you can claim compensation here: https://t.co/kZncdam7bx. Rachel",4,2,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000103,"Customer: Hi @GWRHelp - My friend @117197 tweeted this to you yesterday &amp; again today. Still awaiting a reply. This is a journey we are making together. Please give a response soonest. https://t.co/zRLWWTXQsX
+GWRHelp: @233485 @117197 Hi. The message from yesterday was assigned to a colleague, this meant the new one today didn't come through to the main inbox. I'll look into this now. Lewis
+Customer: @GWRHelp @233485 Hooray!
+Customer: @117197 @GWRHelp Lewis? Are you still working on this?
+GWRHelp: @233485 @117197 Lewis has finished his shift but I've replied to Sam. Phil.
+Customer: @GWRHelp @117197 Thanks Phil. I think there's a valid case for your site to show all possible routes/fares &amp; then the customer can select the one they want 1/2
+Customer: @GWRHelp @117197 The site displaying the ones that it ""thinks"" the customer would most likely want/use means missing out on good deals - Would be good if you could feed this back? 2/2
+Customer: @GWRHelp @233485 Thanks for your help Phil, and to Lewis. My overriding feeling is that it should show the passenger all options and it be up to them.
+Customer: @233485 @GWRHelp Said it better than me!
+GWRHelp: @117197 @233485 Thanks for the feedback on this both - I appreciate what you're saying and I'll make sure your views on this are recorded. Phil.
+Customer: @GWRHelp @233485 Thanks Phil. Same applies to an All Zones Travelcard. Available via NRE website but not yours that I can see.
+GWRHelp: @117197 @233485 If you enter 'London Zones 1-6' as the destination it should show travelcard options. Phil.
+Customer: @GWRHelp @233485 You’re quite right Phil, apologies!
+GWRHelp: @117197 @233485 No worries :) Phil.",14,9,5,,FALSE,FALSE,BOOKING / TICKETS,information,resolved,good_candidate
+GWR_000104,"Customer: @GWRHelp I have experience awful delays today and it really isn't acceptable. This morning I was delayed about 45 mins from Wolre to bath
+GWRHelp: @418625 Hello. Which service did you travel on please? - Jordan
+Customer: @GWRHelp GWR ?
+GWRHelp: @418625 Can you confirm the departure time from Worle? - Jordan
+Customer: @GWRHelp The time it was ment to leave was 6.31 from worle bath direct expected to get in at 7.11 this morning.
+Customer: @GWRHelp It was about 20 mins late to worle. Then it stopped at temple meads and they couldn't repair or so had to wait for another train to bath
+GWRHelp: @418625 Sorry for the delay, this was five minutes late in to Bath because of an earlier train fault. -Andy
+Customer: @GWRHelp It wasn't 5 minutes late",8,5,3,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000105,"Customer: @GWRHelp what's the point of free WiFi if you can never get on it?! https://t.co/F1MMa2TYhX
+GWRHelp: @448658 Sorry for any issues you're having connecting to WiFi Kate, which train are you on? Phil.
+Customer: @GWRHelp Was 20.45 PAD to Bristol TM. But I have either not been able to connect or get any internet connection on any train and I travel weekly
+GWRHelp: @448658 Hi Kate. Really sorry to hear this. In future please try this landing page to try and connect-  https://t.co/B2cQrLRMTx - Josh
+Customer: @GWRHelp Doesn't work... https://t.co/kyrOUQgaiW
+Customer: @GWRHelp And neither from my laptop... https://t.co/EF9u002Ccq
+GWRHelp: @448658 Sorry to see this. Speed and connectivity is dependent on the mobile signal in the area as well as the number of users at a time. Rach
+GWRHelp: @448658 What service are you travelling on? Rach
+Customer: @GWRHelp 17.30 from PAD to BRI
+GWRHelp: @448658 Thanks for confirming. Have you spoken to onboard staff regarding the WiFi? Rach
+Customer: @GWRHelp Wifi never works &amp; I travel to London weekly! Staff always say too many people using it - need to build more capacity as it's useless",11,6,5,,FALSE,FALSE,TECHNICAL / WEBSITE / APP,complaint,unresolved,good_candidate
+GWR_000106,"Customer: Thanks for running a 7 coach service this morning @GWRHelp. Totally rammed.
+GWRHelp: @331754 Sorry for this Malcolm, which service are you using please? Phil.
+Customer: @GWRHelp Left Reading at around 8am. There has been a marked increase in 7 car trains in the last few weeks.
+GWRHelp: @331754 Apologies for this. This is due to more trains than usual being in for repair - Josh
+Customer: @GWRHelp @331754 Its not ""more than usual"" if its the norm.",5,3,2,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000107,"Customer: @GWRHelp c.spa to ldn been told to go b'ham then Euston. Are tickets valid on Virgin trains from Birmingham?
+GWRHelp: @386775 Yes ticket acceptance is in place between London Euston and Birmingham on Virgin. Phil.
+Customer: @GWRHelp Fab thanks Phil.
+GWRHelp: @386775 Not a problem. Phil.",4,2,2,,FALSE,FALSE,BOOKING / TICKETS,question,resolved,good_candidate
+GWR_000108,"Customer: @GWRHelp have tkt for swi-pad tonite, how do we get there departing swin approx 2000hrs pls?
+GWRHelp: @391968 Hi there. The journey you need to make is pictured here - Josh https://t.co/nuEe7f1FoN",2,1,1,,FALSE,FALSE,ROUTE / TIMETABLE / STATION,question,resolved,good_candidate
+GWR_000109,"Customer: Congrats @GWRHelp 4 getting yr IEP trains into service today -  a coffee at B'ham More St this morning is nearest I'll get to GWR today https://t.co/bI9llB9VGj
+GWRHelp: @429581 Hi Tim, thanks appreciated! Hope we can welcome you on a brand new train soon! -Andy",2,1,1,,FALSE,FALSE,OTHER,other,resolved,bad_candidate
+GWR_000110,"Customer: Sprinting across King’s Cross, I made my connection with seconds to spare. Now to try to recover from the asthma attack courtesy of @GWRHelp
+GWRHelp: @373835 Hello Alastair. I am sorry for the late arrival into London Paddington this afternoon. Which service did you travel on please? - Jordan
+Customer: @GWRHelp Hi Jordan. The 15:13 from Bath Spa to Paddington, though to be honest it makes little difference. Every train is delayed, these days.
+GWRHelp: @373835 My apologies for the disruption recently, this service departed Bristol Temple Meads later due to a train fault. - Jordan
+Customer: @GWRHelp Thanks, Jordan. I appreciate that there’s nothing you personally can do about it, but I’m sick to death of the dismal service GWR offer.",5,3,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000111,"Customer: @GWRHelp leaving us minus 2 carriages with 12 people stood in a tiny middle section. Brilliant.
+GWRHelp: @579719 Sorry for the discomfort on board Alessia, which service is this please? Phil.
+Customer: @GWRHelp 2.18 Bath Spa to London Paddington thanks Phil
+GWRHelp: @579719 This service has 8 carriages as scheduled but I apologise for any discomfort on board. Did you make a seat reservation? Phil.",4,2,2,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000112,"GWRHelp: Due to a broken down freight train, the line towards London Paddington is blocked. Ticket Acceptance is in place with London Underground any reasonable route, South Western Railway via Basingstoke and Guildford to Waterloo, and Crosscountry Reading to Basingstoke.
+Customer: @GWRHelp @GWRHelp any update when the trains to paddington are departing reading?
+Customer: @GWRHelp Any ideas on when it will be fixed or moved? Currently on a train back from Bristol and stopped stock still near Newbury apparently because of this. Thanks!
+Customer: @GWRHelp Any indication on how long until the line is cleared? Trying to decide to try and find an alternative route from West Drayton
+Customer: @GWRHelp Any update?
+Customer: @GWRHelp At Slough station, any more news? And what is the terms for compensation? Thanks
+GWRHelp: @259491 Hi Michaela. Not yet I'm afraid. You can travel to London via Waterloo from Reading using South Western Railway services. Lewis
+Customer: @GWRHelp @GWRHelp any update on eta please.... say at West Drayton and need to decide whether to take an alternate route which will take longer....
+Customer: @GWRHelp @259491 The Waterloo line from reading isn’t operating this weekend though? It says we’d have to change at Paddington (which obviously we can’t get to)?
+Customer: @GWRHelp Any update when any trains are leaving Paddington? Waiting to get to Bristol and no updates at station and now even the train times have gone offline!
+GWRHelp: @259485 The team are en-route to the site to fix asap. Estimated time at the moment is about an hour. - Jordan
+Customer: @GWRHelp  https://t.co/op2ZWTxYJD
+GWRHelp: @259483 Hi. No estimate at present I'm afraid. Travelling via an alternative route is probably the best option at present. Lewis
+GWRHelp: @242981 Hello Ben. Engineers are en-route to the broken down train now to fix. - Jordan
+Customer: @GWRHelp Is paddington line clear yet please ?
+Customer: @GWRHelp @242981 En-route or there? Matey in the announcers box at Paddington has been telling us he’s been there the last hour. So which is it?
+Customer: @GWRHelp What’s the update please? Can’t get on any alternative route at Reading as it’s rammed
+GWRHelp: @259984 Engineers are working to fix this now, Harry. What are the journey details please? - Jordan
+Customer: @GWRHelp How does one knackered freight train bring all the lines into and out of Paddington to a halt?
+GWRHelp: @259499 Hello Kim. Engineers are working to fix this now, please travel via an alternative route at the moment. - Jordan
+Customer: @GWRHelp Currently at Reading station. Do you know when the next station to Paddington will be?
+GWRHelp: @259492 @259491 You will need to change at Guildford for a service to Waterloo. Lewis
+GWRHelp: @259976 Hello Denis. Disruption is expected until 1830. You may also travel from London Waterloo and change at Reading. - Jordan
+Customer: @GWRHelp Not sure how that helps as all trains from Reading to Bristol surely originate from temple meads and show as cancelled!
+Customer: @GWRHelp I meant originate from Paddington
+Customer: @GWRHelp Stuck at Paddington wanting to go to goring  ? Stick or go to waterloo
+GWRHelp: @148384 Hello Janet. Not at the moment, disruption expected until 1830. - Jordan
+Customer: @GWRHelp Hi, I have an advance single for the 2004 from slough to Plymouth via reading. In view of the issues tonight can this ticket be used on an earlier train from reading to Plymouth? (And are the trains from reading to the sw running?)
+Customer: @GWRHelp So now we’re terminating at reading - how do I get to London??
+GWRHelp: @259970 Hello Niki. You can travel into London Waterloo or Marylebone. - Jordan
+GWRHelp: @259968 Hello Mike. We would usually have other lines available to us although upgrade work is taking place. - Jordan
+Customer: @GWRHelp Hi Jordan, I have got a bus to complete my journey. Will I be able to claim any compensation? Thanks
+Customer: @GWRHelp Here's a revolutionary idea- any chance of a replacement bus for those travelling psr reading? Currently looking at a 5hr journey if we take the recommended route all round the houses...
+GWRHelp: @260489 Hello Niala. Disruption is expected until 1830. You may also travel into London Marylebone and Waterloo. - Jordan
+Customer: @GWRHelp The queue to change tickets is abysmal,if I go to the station tomorrow can I change my ticket to a route tomorrow instead of waiting in the hell that is Paddington tonight? Thanks 🙏🏻
+GWRHelp: @260487 Hi Sara. We always look at this possibility but can't always arrange due to availability. Lewis
+Customer: @GWRHelp So you have no trains AND no buses running? Good job you're a transport company 👍🏻
+Customer: @GWRHelp This has meant that what should have been a 2.5 hour journey will now be close to 5. Can you advise how I can get a refund on my tickets??
+Customer: @GWRHelp No contingency though. Poor planning!
+GWRHelp: @260483 Hi Tori. Apologies for the disruption. A compensation claim  for the delay can be made here: https://t.co/kZncdam7bx. Lewis
+Customer: @259968 @GWRHelp What contingency could they have right now?
+Customer: @122146 @GWRHelp @242981 Engineers got sent when I was first at Paddington at 3:30 - Everyone’s been sat on the floor for over two hours with staff not having a clue what’s been going on...
+Customer: @GWRHelp Thanks. However there is no way of getting to these stations directly. We have to get another train to Basingstoke then to Waterloo. Yet the trains are too packed for most people to get on. We've been at Reading station for over an hour with no available trains.
+Customer: @GWRHelp Any update on when the line will reopen to London Paddington? Also why when there is more than one line does a broken down train  close all the lines?
+Customer: @GWRHelp @259485 Apparently they said that 2 hours ago.
+Customer: @259481 @122146 @GWRHelp @242981  https://t.co/GcKptQxxDi
+Customer: @259125 @259968 @GWRHelp Buses
+GWRHelp: @259976 Some services are terminating at Reading and working back to Bristol. - Jordan
+Customer: @GWRHelp Thanks. I bought two tickets for myself and another person - they obviously have different ticket numbers but my contact details will be the same for both. Is that ok?
+Customer: @131631 @259968 @GWRHelp They can't have buses at the ready at any point in time incase something goes tits up. Sourcing buses for the amount of passengers that exist on this route would also take hours, as availability from bus companies is severely limited.
+Customer: @GWRHelp I’ve met 7 lovely people and we’re getting a cab to London from Reading. Where shall I send my expenses? https://t.co/snRrEdF7a0
+GWRHelp: @260247 Hello Andrew. Please travel from London Waterloo. - Jordan
+Customer: @GWRHelp And are there trains from reading to goring on Thames ?
+Customer: @GWRHelp Trying to get back to the south-west (taunton) from Paddington. Can you tell us what will be the best option please?
+Customer: @GWRHelp  planning alternative arrangements. Will my ticket be valid tomorrow?
+GWRHelp: @260839 Hi. Tickets dated today will be accepted tomorrow. Lewis
+Customer: @259125 @259968 @GWRHelp When you have only two lines working yes you can. Other rail companies manage this too. I know a thing or two about it and reading buses could easily get people in within a couple of hours. They knew they had a single point of failure
+Customer: @GWRHelp Why has this apparently only just been conveyed to our driver? Had we known this before we set out on our journey, we could have planned accordingly. Instead, we have stopped in the middle of nowhere with no real information.
+Customer: @GWRHelp @259976 They bloody better be. Im going from Waterloo via Basingstoke to Reading.
+Customer: @GWRHelp Also - please stop telling people to go to Waterloo. There are no trains there from Reading today.
+GWRHelp: @260837 Hello Paul. yes, you may travel at an earlier time and via any reasonable route. - Jordan
+GWRHelp: @259485 Hello Gemma. You can change at Reading for trains to London Waterloo and Marylebone. - Jordan
+Customer: @GWRHelp @260837 Just turn up and get on one and then defy the guard to argue with you. Assuming you can actually find any staff. They’ll all be “out of position” because of the delays
+Customer: @GWRHelp @259485 Pardon?! Marylebone from reading? When did that service start?
+Customer: @GWRHelp @259485 @27663 Good luck!
+Customer: @259486 @GWRHelp @259485 Is that a diversion that is being put on? Where can we access info about this?
+Customer: @259487 @GWRHelp @259485 It doesn’t exist. From reading, you either have to get an Oxford train or a Basingstoke train and change at either station for london. They’re saying that tickets are valid
+Customer: @GWRHelp do we get refund if delayed due to the freight train?
+GWRHelp: @260833 Hi Janice. Apologies for the disruption. What type of ticket do you have? Lewis
+Customer: @GWRHelp Thanx for prompt reply - 1st advance single Bath to London
+GWRHelp: @260833 You can claim compensation. This can be done via the webform here: https://t.co/kZncdam7bx. Lewis
+GWRHelp: @261216 Hello Rebecca. Tickets valid today will be accepted tomorrow. - Jordan
+Customer: @260487 @GWRHelp Drivers on rest, had a few beers can’t work? Busy with families? Sunday is a difficult day. Would you go in if work rang you now?
+Customer: @124607 @GWRHelp I'm sure all these people would love to spend Sunday evening with their family and beers too, but unfortunately have been stuck here for 3 hrs. Maybe even a work emergency they can't get to? Don't offer services on a sunday if you can't deliver it due to staff constraints... https://t.co/TkBn1ll6Va
+GWRHelp: @261213 Hello Peter. We are expecting disruption until 2100 at the moment. - Jordan
+Customer: @GWRHelp Ive had to get a train from Reading to Basingstoke - rammed, standing room only and now a train from Basingstoke to Waterloo (sat on the floor as my sprained ankle can’t take it anymore!). Compensation claim is IN!
+Customer: @260487 @133437 @124607 @GWRHelp Where's that?
+Customer: @251821 @133437 @124607 @GWRHelp London Paddington. All services have been cancelled for the last 3 hrs
+GWRHelp: @261205 Hello Andy. We don't usually compensate for a taxi, you can submit the claim to __email__. - Jordan
+GWRHelp: @260247 Hi Andrew. There are services running from Reading to Goring &amp; Streatley. Lewis
+GWRHelp: @261590 Hi. You can travel via London Waterloo via Basingstoke and Reading. If you can travel tomorrow instead, tickets dated today will be accepted. Lewis
+GWRHelp: @261581 Hi Laura. Apologies for the disruption. There aren't direct services, you would need to change at Guildford or Basingstoke. Lewis
+Customer: @GWRHelp Thank you so much,👍🏻 you must be dealing with a tonne of complaints so I appreciate your swift reply 🙌🏻
+GWRHelp: @261216 You're most welcome, Rebecca! We are a little busy :) - Jordan
+Customer: @259125 @131631 @GWRHelp My point is that risking the entire West of England network for a Sunday on a single point of failure without contingency is inept management.
+Customer: @GWRHelp Jokes bruv, just like the contingency plan for 1 broken down train. Creating hassle, cost and confusion for 1000s.
+Customer: @GWRHelp @259492 @259491 I think the confusion Lewis was in you saying ""from Reading using South Western Railway"", instead of GWR to Guildford, then SWR?
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan
+GWRHelp: nan",119,58,61,,FALSE,FALSE,OTHER,other,unresolved,bad_candidate
+GWR_000113,"Customer: @GWRHelp order 2x lots of tickets online on 29/09/2017 and still not arrived, what should I do ??
+GWRHelp: @363960 Hi Michael. What is your booking reference please? - Josh
+Customer: @GWRHelp Have replied privately",3,2,1,,FALSE,FALSE,BOOKING / TICKETS,question,unresolved,good_candidate
+GWR_000114,"Customer: @GWRHelp is the 06:28 from didcot-Pad cancellation a regular thing now? 3 times in 2 weeks. 6:47 really busy.
+GWRHelp: @384297 Apologies Konrad, this train has been cancelled because of a broken down train earlier today. Phil.
+Customer: @GWRHelp 4 out of last 10 work days service cancelled.broken train again? That’s 40% failure rate for this service and no refund  for season tickets
+GWRHelp: @384297 Hi Konrad. Apologies its been cancelled again. This was due to a delay at the depot. Lewis
+Customer: @GWRHelp How many more times will you make me late for work with this?No tweet ancmnt either.I don’t buy your reason for cancellation  either.
+GWRHelp: @384297 Hello Konrad. We Tweet when there is disruption to a number of services. Apologies for the cancellation, this is due to a train fault. - J",6,3,3,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000115,"Customer: Here at Bristol for the @GWRHelp 0600 to Padd. The first public run of @154173 IEP Class 800s. https://t.co/QUyRE0tVs1
+GWRHelp: @315824 @154173 Hi Richard, hope you like it! #GWRNewTrains -Andy
+Customer: @GWRHelp @315824 @154173 A sign of things to come......25 late off Bristol TM
+GWRHelp: @413507 @315824 @154173 There were some issues with departure, but thankfully all running fine now. Phil.
+GWRHelp: nan
+GWRHelp: nan",6,2,4,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,resolved,good_candidate
+GWR_000116,"Customer: @GWRHelp how can you tell passengers at Bristol that the 17:22 won’t be stopping at Bath due to the short formation of the train, but it does actually stop there. Deliberately lying to customers diverting them to the 17:30 Paddington service. What a disgrace. #gwr
+GWRHelp: @459308 Hi Ian. We do advise customers to catch the Paddington service at 1730 as it is a HST so it has many more carriages than the 1722. Apologies if you were provided with incorrect information. Rachel
+Customer: @GWRHelp I totally understand what you were trying to do, but you deliberately lied. You told passengers that the train would not stop at Bath when it was always going to. How does that fit with your passenger charter? #gwr
+GWRHelp: @459308 We will deal with this internally. So sorry for this. Rachel
+GWRHelp: nan",5,2,3,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000117,"Customer: @GWRHelp hi im trying to plan my trip to London on 18th nov from Cardiff and coming back on 19th. Nov. You still unsure re engineer work?
+GWRHelp: @171618 Hi Jeff. Where are you travelling to please? - Josh
+Customer: @GWRHelp Sorry paddington
+GWRHelp: @171618 Thanks Jeff. High-speed services on that route will divert through Gloucester; adding about 40 minutes to the total journey - Josh
+Customer: @GWRHelp This this is for Saturday and Sunday?
+GWRHelp: @171618 Hi Jeff. Journey times are extended for both days that weekend. Lewis
+Customer: @GWRHelp Thanks",7,4,3,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000118,"Customer: @GWRHelp Hey! The last couple of days the 5.15 pm service from Oldfield Park to Gloucester has had three carriages instead of the usual two. Thank you, it's a massive improvement! Can I expect this to be the new norm? 🤞
+Customer: @726978 @GWRHelp That used to make my day when I was commuting. So much better.
+Customer: @58063 @GWRHelp You can say that again. Today I even have a seat, two days ago several passengers had to wait for the next train (in an hour) while the rest of the passengers got to enjoy an involuntary group cuddle!
+GWRHelp: @726978 @58063 Hello Alex. Great to hear! The service has been short-formed recently due to repair work. - Jordan
+Customer: @GWRHelp It's back down to 2 today. More repairs happening?
+GWRHelp: @726978 Hi Alex. It is, sorry for the busy conditions. More carriages are undergoing maintenance repairs. This route is set to see more capacity in place from January 2018. Rach
+Customer: @GWRHelp Thanks for the update, appreciate it. Can I expect a 2-carriage service until next year?
+GWRHelp: @726978 We'll continue to allocate available carriages to accommodate demand as best we can until the new trains arrive, but we can't confirm how many carriages will run on a specific service until on the day. Phil.
+GWRHelp: nan
+GWRHelp: nan",10,5,5,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,unresolved,good_candidate
+GWR_000119,"Customer: Why do I get this bizarre awful web app in place of the native app when I search for trains sometimes? @GWRHelp
+GWRHelp: @145787 Hello Jon. Could you send me a screenshot please of the webpage in the app? I'll feedback to the team. - Jordan
+Customer: @GWRHelp It’d be helpful if it didn’t default to invalid terms. Arrive before makes no sense at all. Thanks https://t.co/Jcq46y4GPE
+GWRHelp: @145787 Thank you, I'll let the team know to look into. - Jordan",4,2,2,,FALSE,FALSE,TECHNICAL / WEBSITE / APP,complaint,unresolved,good_candidate
+GWR_000120,"Customer: @GWRHelp Hey! Need to get back from Gatwick Tiz Dorking. Previous 2 trains cancelled. Any advice on best way to get back home?
+GWRHelp: @293342 Hi Karianne. Apologies for the cancellations. The 16:03 service is the next one due to run. Lewis
+Customer: @GWRHelp Any idea how likely it is to be cancelled? I’ve just been chucked off a train last minute as it’s no longer calling at Redhill.... just want to get home.
+GWRHelp: @293342 It's been cancelled (only running from Redhill) now I'm afraid. There's a 16:08 service to Redhill. Lewis",4,2,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,question,unresolved,good_candidate
+GWR_000121,"Customer: @GWRHelp Hi, what platform is the 9.37 train from Slough to Reading?
+GWRHelp: @295443 Hello. This is due to depart Platform 2. - Jordan
+Customer: @GWRHelp thank you :) could you also tell me which platform i will be pulling up to at Reading? And which platform is to Gloucester (10.03)
+GWRHelp: @295443 You should have arrived into Platform 9 and departing from Platform 9. - Jordan",4,2,2,,FALSE,FALSE,ROUTE / TIMETABLE / STATION,question,resolved,good_candidate
+GWR_000122,"Customer: @GWRHelp Will the 17.48 from Cheltenham Spa to Great Malvern be running? Currently delayed and slightly concerned!
+GWRHelp: @326652 Hi Jon. The train is currently 26 minutes late but is running. Apologies for the delay to your day - Josh",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,question,unresolved,good_candidate
+GWR_000123,"Customer: @GWRHelp yep ticket machine at melksham is out of service again
+GWRHelp: @414409 Hi Pete. Sorry for this. I will report it right away. Do you have pre-purchased tickets? Rach",2,1,1,,FALSE,FALSE,BOOKING / TICKETS,complaint,unresolved,good_candidate
+GWR_000124,"Customer: @GWRHelp fare jumpers currently hiding in loos, coach 6or 7, 17:10 from Burnham to paddington
+GWRHelp: @651521 Hi Peter. Thanks for letting us know. I'll pass this on now. Natalie",2,1,1,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,request,resolved,bad_candidate
+GWR_000125,"Customer: Going to Bristol. Seat reservation for carriage C. There is no carriage C. What's that about @GWRHelp?
+GWRHelp: @799654 Which service are you travelling on please? - Jordan
+Customer: @GWRHelp 9.15 to Cardiff
+GWRHelp: @799654 Reservations for Coach C are in Coach F today due to maintenance work being carried on the carriage. - Jordan
+Customer: @GWRHelp Well it would have been helpful to tell people that. No announcement at station or in train.
+GWRHelp: nan
+GWRHelp: nan",7,3,4,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,unresolved,good_candidate
+GWR_000126,"Customer: @GWRHelp thanks for wrongly advertising 17:57 Reading to Slough. Ended up in London with quite a few others. Not happy not acceptable.
+GWRHelp: @351944 Sorry to hear this Lynda, I can see the 1757 did call at Slough. Could you explain what happened? Phil.
+Customer: @GWRHelp Really? Tell the other people told at Paddington late runner put ahead. Not what it said on screens at top of stairs
+GWRHelp: @351944 Apologies for the confusion this evening Lynda. Have you reached your destination? Rach
+Customer: @GWRHelp Finally. Although missed appt due to this.",5,3,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000127,"Customer: @9540 just waiting for the 1754 from Swindon to leave. It's possible the doors might close. #overcrowding
+GWRHelp: @419713 Hi Mark. Sorry for the crowding. I shall log your feedback. James
+Customer: @GWRHelp It was 3yrs ago &amp; this thread had @gwrhelp trailing new trains for Swindon-&gt;chelt. New trains here now, but just as bloody overcrowded
+GWRHelp: @419713 Hello Mark. Our new trains are in operation between Paddington and Bristol/ South Wales but not Cheltenham currently. - Jordan
+Customer: @GWRHelp for an old train it’s impressively new and shiny, even got that new train smell. I’ll be more patient tho
+GWRHelp: @419713 It might be one of our refurbished trains, sorry for the busy conditions this evening. - Jordan",6,3,3,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000128,"Customer: @GWRHelp why has the 8.22 from Taplow been late every day since you changed the time from 8.18? I assumed you did that so it didn’t look as late (always arrived after 8.20 anyway!) but you’ve made it way worse somehow?!
+GWRHelp: @282465 Hi Alex. Sorry for the frequent delays you experience. I understand this is disappointing. I can't see what is delaying this service today just yet I'm afraid. Natalie",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000129,"Customer: After a full working day, this is turning out to be a n'mare journey. @GWRHelp - what's going on with the line to Taunton? Im cold n tired
+GWRHelp: @667713 Hi Denise. What train are you travelling on? Lewis
+Customer: @GWRHelp - delayed 20.35 from Paddington. Train manager doing a sterling job of keeping us posted and walking the train. Still a pain tho!
+GWRHelp: @667713 Hi Denise. Really sorry for the delay this evening but I'm glad to hear my colleague is doing a great job - Josh",4,2,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000130,"Customer: Felly @GWRHelp maw dwyiethrwydd yn iawn yng Nghernyw a Llundain (gorsaf Southall) ond nid yng Nghymru. Pam ydych ein trin ni fel ail-ddosbarth? @95967 https://t.co/AWsjHRMPV4
+GWRHelp: @705807 @95967 Hello David. We are proud to serve our customers in Wales and operate the named 'Welshman' train. Stations in South Wales are managed by @120244 - Jordan https://t.co/flSlE8lpMj
+Customer: @GWRHelp @95967 @120244 Chi wedi methu'r pwynt yn llwyr Jordan bach! O'n i'n sôn am yr awydd am ddwyieithrwydd yn cyffredinol. Dydy'r Welshman ddim yn gair Cymraeg. A'r ffaith bod @120244 wedi hoffi'ch ateb yn gweud y cyfan!
+Customer: @705807 @GWRHelp @95967 Haia David. Flin am unrhyw gamddealltwriaeth. 'Dyn ni wedi ymrwymo i ddarparu gwybodaeth yn y Gymraeg. Mae gwybodaeth yn ein Siarter - https://t.co/rDiGQr96mi ^Nia
+GWRHelp: @705807 @95967 @120244 We operate trains across a wide part of the country that has diverse languages which we embrace where practically possible. This is why we are proud to have named a service 'Y Cymro'. - Jordan",5,3,2,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000131,"Customer: @GWRHelp fantastic new experience on #newgwrtrains, first its 20+ mins late out of Paddington and then it breaks down at reading
+GWRHelp: @157027 Hi Fabio. I'm so sorry about this. I appreciate this is disappointing. We will rectify this issue as soon as we can. Natalie
+GWRHelp: nan",3,1,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000132,"Customer: @GWRHelp a colleague of mine had his train cancelled, then travelled out on another one which was constantly delayed due to one engine, most of the journey he had to stand.
+How does he claim compensation if his ticket was taken by the barrier?
+GWRHelp: @458764 What journey was he making please? Rachel
+Customer: @GWRHelp I was told London Paddington to Bristol Temple Meads 23rd November 18:45
+GWRHelp: @458764 Did he book the ticket online? Rachel
+Customer: @GWRHelp It was booked through a travel booking agency
+GWRHelp: @458764 Does he have the receipt/proof of purchase of the train booking? Rachel
+Customer: @GWRHelp Yeh an email confirmation he'll have from the booking company
+GWRHelp: @458764 If he was delayed by an hour or more, he can send full details along with a photo of the email booking confirmation to our Customer Support team at: __email__. Rachel
+Customer: @GWRHelp Thank you Rachel
+GWRHelp: @458764 No problem William. Rachel",10,5,5,,FALSE,FALSE,REFUND / COMPENSATION,question,resolved,good_candidate
+GWR_000133,"Customer: @GWRHelp Not a great start for these new trains guys. 0700 from Padd to Bristol. Late from the depot again. Last time it was only 5 coaches. 8.17 at CPM was rammed full already.
+Customer: @GWRHelp Which one will get here first Lol.. . https://t.co/uygi3dsVjE
+GWRHelp: @232585 Sorry for the delay this morning Darren, can I help with any journey info? Phil.
+Customer: @GWRHelp I'm on the 0843 out CPM now. Late and cold. But then I'm not the only one. Puzzled wrt what happened to the previous train?
+GWRHelp: @232585 The 07:00 was late leaving Paddington as they were late from the depot and then further delayed at Reading due to a minor technical fault. -Andy",5,3,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000134,"Customer: @GWRHelp Why has the 6:44 from Reading to London been cancelled again? Twice this week !!
+GWRHelp: @260248 Hi Paul. I'm very sorry about this. This has been cancelled because of a fault on this train. Natalie",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,question,unresolved,good_candidate
+GWR_000135,"Customer: ""Congestion""? So we left on time and all the trains are passing us in &amp; out of PAD. Not looking forward to another missed connection. 18:42 to MAI @GWRHelp
+GWRHelp: @256812 Hi Lorri. Sorry for the delay this evening. What connection are you looking to make? Rach
+Customer: @GWRHelp Bourne End connection
+GWRHelp: @256812 We always look to hold connecting services if operationally possible but sometimes we simply can't I'm afraid. Rach
+Customer: @GWRHelp Appreciate that but now the straight through trains have gone connections are being missed more often than not. Wasted return ticket + taxi cost #nothappy
+GWRHelp: @256812 Sorry for the delay this caused Lorri. I can appreciate this is frustrating. Rach",6,3,3,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000136,"Customer: @GWRHelp  every single time the train is delayed it gets terminate at Shrub Hill yet they never tell us before we board the train. (2/2)
+GWRHelp: @531370 Hi Robyn. Really sorry for this. This isn't something that will always be known in advance - Josh",2,1,1,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000137,"Customer: @GWRHelp morning.  What's happening between frome grime and Westbury.  No train no info. Thanks
+GWRHelp: @750506 Hi Karen. Sorry for the delay and lack of info. Are you waiting for the 06:45 service? Lewis
+Customer: @GWRHelp Yes.... info coming through now at station but I'll miss Westbury connection
+GWRHelp: @750506 Glad to see information is now being provided. Apologies for the problems the delay will cause for your onward journey. Lewis
+Customer: @GWRHelp Thanks Lewis. Info not good enough at station. kept changing and no reason. On train now.  Long wait at Westbury for next train. Thanks",5,3,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000138,"Customer: @GWRHelp hello, I am booked onto Gloucester to Hunts next Tuesday, part of my journey is via tube, is the price included in my fare, or not?
+GWRHelp: @635509 Hi Gemma. Have you purchased your ticket yet please? - Josh
+Customer: @GWRHelp Yes, purchased a few weeks ago. I go Glos-Paddington, Paddington-Kings Cross, and Kings Cross to Hunts
+GWRHelp: @635509 Can you PM me a picture of the ticket or your booking reference please? - Josh",4,2,2,,FALSE,FALSE,BOOKING / TICKETS,question,unresolved,good_candidate
+GWR_000139,"Customer: I think you're the only reason I get angry @GWRHelp
+GWRHelp: @524988 Hi Emily. Really sorry to hear this. What issue have you had please? - Josh
+Customer: @GWRHelp Trains cancelled this morning now I'm delayed getting home from Ealing
+GWRHelp: @524988 Apologies for the poor experiences today Emily. Delays have been due to signalling issues between Paddington and Ealing - Josh",4,2,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,unresolved,good_candidate
+GWR_000140,"Customer: @GWRHelp why can't I see any train options and times for December 26? This is for a journey from Cornwall to Bristol.
+GWRHelp: @357321 Hi Yiota. Trains don't run on Christmas and Boxing day. Lewis",2,1,1,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000141,"GWRHelp: Rolling out across our network from October. More seats, more trains, more adventures. Book now at https://t.co/vE4KK30mls. Terms Apply. https://t.co/Lk6eelZrXv
+Customer: @GWRHelp Let’s hope the staff are a little less aggressive when enforcing no ticket policies that don’t exist!
+GWRHelp: @725855 Can you explain what has happened please, Marcus? - Jordan https://t.co/Fg4VGS9qNo
+Customer: @GWRHelp Maybe having trains run on time or add some carriages to already struggling trains which can’t handle their own loads. Bristol to London is not a problem, sort out your other stations, such as Weston-super-Mare.
+GWRHelp: @726974 Hi Kevin. Sorry for the busy conditions on your journeys with us. The introduction of our new trains means that we will be able move our existing trains around and distribute these to areas that require increased capacity. Natalie
+Customer: @GWRHelp I heard from GWR staff that the HS trains will be sold to another firm once the new trains are fully working.  Two trains an hour which are over crowded, delayed or often cancelled as they have been in the pasts few weeks is not great for a large town.
+GWRHelp: @726974 We are in the process of introducing newer Turbo Trains. Some of our brand new trains will each Weston-Super-Mare in the evening and some HSTs will be retained to run between Penzance and Cardiff. - Jordan
+Customer: @GWRHelp But we already get highspeed from 7pm I’m on about having actual running trains throughout the day, that you don’t get crammed into at Bristol or left on the platform because the 2 or 3 coach train is to full.
+GWRHelp: @726974 Other High Speed Trains operate earlier at 1717 and 1820 to Weston-Super-Mare. Sorry you are unhappy with the current provision, I'll feedback. - Jordan
+Customer: @GWRHelp Thank you as someone who frequently gets the train from WSM through Bristol then down to Bath, London or Cardiff, sometimes other places. If there are only two or three trains an hour, usually packed, I am often left stranded till a train can be boarded, causing me to be late.
+GWRHelp: nan",11,5,6,,FALSE,FALSE,OTHER,other,unresolved,bad_candidate
+GWR_000142,"Customer: Complete overcrowding again on @GWRHelp arguably unsafe for elderly passengers currently on board and certainly not comfortable. Ridiculous this happens in a modern society.
+GWRHelp: @651532 Hi Ash, sorry for any discomfort which train are you on? -Andy
+Customer: @GWRHelp The delayed 16:41 from Bristol Temple Meads to Great Malvern.
+GWRHelp: @651532 Really sorry for any discomfort caused on the service this evening Ash. The trains are designed to safely carry standing customers as well as seated  - Josh
+Customer: @GWRHelp @651532 From RAIB Report 02/2017 on the low-speed collision of two GWR trains at Plymouth: https://t.co/PDSRkeAZpU",5,3,2,,FALSE,FALSE,GENERAL CUSTOMER SERVICE,complaint,unresolved,good_candidate
+GWR_000143,"Customer: Hey @GWRHelp this will be the sixth train in a row that was late departing from either Reading or Paddington. Most around 15mins. No compensation on my ticket?
+GWRHelp: @157029 Hi Daniel. Sorry to hear this. What service are you referring to please? Also, what ticket do you hold? Rachel
+Customer: @GWRHelp 16-25 zone 1-6 travelcard.",3,2,1,,FALSE,FALSE,REFUND / COMPENSATION,question,unresolved,good_candidate
+GWR_000144,"Customer: My first visit to @131134 Kirk House - on a lovely new @GWRHelp train!
+GWRHelp: @131133 @131134 I hope you have a lovely journey and a great day David! :) Natalie",2,1,1,,FALSE,FALSE,OTHER,other,resolved,bad_candidate
+GWR_000145,"Customer: @GWRHelp Big shout out to Kirk the onboard guard who helped us get our tickets on the 2202 North Camp to Gatwick. #superservice #topbloke
+GWRHelp: @336768 Hi Jessica. Glad Kirk was able to help today. I'll make sure his manager gets to read this. Natalie
+Customer: @GWRHelp @40301 @336768  https://t.co/dDC1efxBz7",3,2,1,,FALSE,FALSE,OTHER,other,resolved,bad_candidate
+GWR_000146,"Customer: @GWRHelp why is this 2120 from Paddington just sitting at Paddington at 2123?
+Customer: @GWRHelp Every stop before we got going
+GWRHelp: @281913 We don't have a 2120 departure, Eamonn. Are you referring to 2115? - Jordan
+Customer: @GWRHelp I was waiting for the 2115 but the first announcement was for the 2120. When that was boarding the 2115 still didn't have a platform.
+Customer: @GWRHelp In fact I mean the 2117. Either way it was another night of complete absence of communication from GWR. Cheers
+GWRHelp: @281913 Sorry for the disruption this evening. This was due to an earlier broken down train. - Jordan
+GWRHelp: nan
+GWRHelp: nan",8,4,4,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,complaint,resolved,good_candidate
+GWR_000147,"Customer: @GWRHelp Hello, do I need to book a bike in advance for a OLF to BRI journey tomorrow? Thank you!
+GWRHelp: @153781 Hi Hannah. Can you confirm the scheduled departure time of this service please? Rachel
+Customer: @GWRHelp Sure 09.11 from OLF, returning on 16.48 from BRI
+GWRHelp: @153781 Thanks for confirming. Reservations won't be required for these services. Rachel",4,2,2,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,resolved,good_candidate
+GWR_000148,"Customer: @GWRHelp has the 8.28 from Lawrence Hill ever been on time? https://t.co/o5ClER7wkJ
+GWRHelp: @318685 Hi Piers. It's expected to run 7 minutes late. Sorry for any problems this delay causes. Lewis
+Customer: @GWRHelp Thanks Lewis. I am on it now. Just 9 minutes late today. Has it been on time at all this week?
+GWRHelp: @318685 It's been late every day this week I'm afraid. Wednesday was its best day, it arrived 1 minute late. Lewis
+Customer: @GWRHelp Fingers crossed for next week!",5,3,2,,FALSE,FALSE,TRAIN DELAY / CANCELLATION,question,resolved,good_candidate
+GWR_000149,"Customer: @GWRHelp yet on the service update says that the trains are able to run normally now??
+GWRHelp: @311931 Hello Louise. There is a fault with the signalling system and replacement services are in operation. - Jordan
+Customer: @GWRHelp There was but it was supposed to be fixed but is still showing not??",3,2,1,,FALSE,FALSE,TRAIN / SERVICE INFORMATION,question,unresolved,good_candidate
+GWR_000150,"Customer: @GWRHelp where’s the 1:01 from Reading to Oxford? Display says it’s “on time” but no sign of it...
+GWRHelp: @404237 Hello Will, we have the 01:01 departure from Reading showing as on the approach to Didcot Parkway, currently 3 minutes late. - Ellie
+Customer: @GWRHelp Thanks Ellie! It did turn up - was just worried about accidentally missing the last train because it had changed platform or something...
+GWRHelp: @404237 It was originally 9 minutes late from Reading so I understand completely! :-) Glad to hear you're on board. - Ellie",4,2,2,,FALSE,FALSE,ROUTE / TIMETABLE / STATION,question,resolved,good_candidate

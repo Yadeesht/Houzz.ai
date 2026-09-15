@@ -1,12 +1,6 @@
-# Ignore data directory and its contents
-/Data/*
-
-# Also ignore any data/ subdirectories in submodules if present
-*/data/*
-**/Data/*
-
-Data/
-*.csv
+gwr_candidate_pool.csv
+gwr_thread_profile.csv
+twcs.csv
 
 temp/
 
