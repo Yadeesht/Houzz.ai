@@ -99,8 +99,6 @@ The `Data/` directory contains all source, intermediate, corpus, and benchmark C
 | :--- | :--- | :--- | :--- |
 | **`twcs.csv`** | ~516 MB (~2.8M rows) | Raw Kaggle Twitter Customer Support dataset spanning 30+ brands. | Download from [Kaggle](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) into `Data/twcs.csv`. |
 | **`gwr_threads.csv`** | ~9.8 MB (49,150 tweets) | Extracted `@GWRHelp` multi-turn threads with reply trees resolved into clean dialogue turns. | Run `python data_clean/stage_1.py`<br>*(Reads `Data/twcs.csv`)* |
-| **`gwr_thread_profile.csv`** | ~1.4 MB (12,176 threads) | Structural metrics & behavioral profiling (turns, question flags, escalation keywords). | Run `python temp/stage_2.py`<br>*(Reads `Data/gwr_threads.csv`)* |
-| **`gwr_candidate_pool.csv`** | ~105 KB (600 threads) | Stratified sample of 600 threads across lengths and issues for benchmark annotation. | Run `python temp/stage_2.py`<br>*(Reads `Data/gwr_threads.csv`)* |
 | **`gwr_golden_review.csv`** | ~139 KB (1,107 rows) | Curated and hand-labeled golden ground-truth benchmark (12 intent classes, resolution, quality). | Curated from `gwr_candidate_pool.csv` via manual human inspection and ground-truth labeling. |
 | **`data_retrieval.csv`** | ~6.0 MB (49,149 turns) | Final retrieval corpus for FAISS. Strictly excludes all golden review threads (zero leakage). | Run `python data_clean/stage2.py`<br>*(Reads `Data/gwr_threads.csv` & `Data/gwr_golden_review.csv`)* |
 | **`baseline2_keyword_results.csv`** | ~111 KB (150 rows) | Baseline 2 keyword predictions, classified intents, and template responses on the golden set. | Run `python core/baseline2.py`<br>*(Evaluates baseline on `Data/gwr_golden_review.csv`)* |
