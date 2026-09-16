@@ -20,7 +20,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from core.myapproch import run_support_agent
+from core.myapproach import run_support_agent
 from core.prompt import LLMJudge
 from rag.config import DATA_DIR, GOLDEN_REVIEW_PATH
 

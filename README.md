@@ -10,7 +10,7 @@ All preprocessed datasets and FAISS vector indices are **already included and pr
 
 ### Headline Results Summary
 
-| Metric / Dimension | Baseline 1 (Trivial) | Baseline 2 (Keyword/Rule) | Our Semantic RAG (`core/myapproch.py`) |
+| Metric / Dimension | Baseline 1 (Trivial) | Baseline 2 (Keyword/Rule) | Our Semantic RAG (`core/myapproach.py`) |
 | :--- | :---: | :---: | :---: |
 | **Intent Classification Accuracy** | 0.0% (N/A) | 55.6% | **88.0% – 90.5%** |
 | **Response Quality (LLM Judge)** | 25.0% | 45.0% | **82.4%** |
@@ -99,7 +99,7 @@ The `Data/` directory contains all source, intermediate, corpus, and benchmark C
 | :--- | :--- | :--- | :--- |
 | **`twcs.csv`** | ~516 MB (~2.8M rows) | Raw Kaggle Twitter Customer Support dataset spanning 30+ brands. | Download from [Kaggle](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) into `Data/twcs.csv`. |
 | **`gwr_threads.csv`** | ~9.8 MB (49,150 tweets) | Extracted `@GWRHelp` multi-turn threads with reply trees resolved into clean dialogue turns. | Run `python data_clean/stage_1.py`<br>*(Reads `Data/twcs.csv`)* |
-| **`gwr_golden_review.csv`** | ~139 KB (1,107 rows) | Curated and hand-labeled golden ground-truth benchmark (12 intent classes, resolution, quality). | Curated from `gwr_candidate_pool.csv` via manual human inspection and ground-truth labeling. |
+| **`gwr_golden_review.csv`** | ~139 KB (150 rows) | Curated and hand-labeled golden ground-truth benchmark (12 intent classes, resolution, quality). | Curated from `gwr_candidate_pool.csv` via manual human inspection and ground-truth labeling. |
 | **`data_retrieval.csv`** | ~6.0 MB (49,149 turns) | Final retrieval corpus for FAISS. Strictly excludes all golden review threads (zero leakage). | Run `python data_clean/stage2.py`<br>*(Reads `Data/gwr_threads.csv` & `Data/gwr_golden_review.csv`)* |
 | **`baseline2_keyword_results.csv`** | ~111 KB (150 rows) | Baseline 2 keyword predictions, classified intents, and template responses on the golden set. | Run `python core/baseline2.py`<br>*(Evaluates baseline on `Data/gwr_golden_review.csv`)* |
 | **`llm_evaluation_results.csv`** | ~27 KB (152 rows) | Turn-by-turn LLM-as-a-Judge benchmark output (intent accuracy, retrieval score %, response score %, reasoning). | Run `python core/eval.py --input-file Data/gwr_golden_review.csv --samples 25 --eval-mode replay --output-file Data/llm_evaluation_results.csv` |
@@ -115,34 +115,26 @@ The `Data/` directory contains all source, intermediate, corpus, and benchmark C
    - **Contents**: Reconstructed conversational trees filtered strictly for `@GWRHelp`. Connects replies back to parent inquiries, fixes timestamp order, and cleans Twitter anomalies.
    - **To Reproduce**: Run `python data_clean/stage_1.py` (reads `Data/twcs.csv`).
 
-3. **`Data/gwr_thread_profile.csv` (Thread Profiles & Metrics)**:
-   - **Contents**: Comprehensive profiling of every GWR conversation: total turns, customer vs. company message count, question markers, urgency/escalation indicators, and resolution flags.
-   - **To Reproduce**: Run `python temp/stage_2.py` (reads `Data/gwr_threads.csv`).
-
-4. **`Data/gwr_candidate_pool.csv` (Golden Candidate Pool)**:
-   - **Contents**: A balanced, stratified sample of 600 candidate threads selected across various lengths, complexity, and issue types for golden benchmark creation.
-   - **To Reproduce**: Run `python temp/stage_2.py` (outputs candidate pool alongside thread profile).
-
-5. **`Data/gwr_golden_review.csv` (Golden Ground-Truth Benchmark)**:
+3. **`Data/gwr_golden_review.csv` (Golden Ground-Truth Benchmark)**:
    - **Contents**: The primary evaluation dataset containing hand-labeled ground-truth intents (12 taxonomy classes), interaction types, resolution status, and quality flags.
    - **To Reproduce**: Sourced from `gwr_candidate_pool.csv` through manual human inspection and ground-truth validation.
 
-6. **`Data/data_retrieval.csv` (FAISS Retrieval Corpus)**:
+4. **`Data/data_retrieval.csv` (FAISS Retrieval Corpus)**:
    - **Contents**: The sanitized pool of historical conversation threads indexed by FAISS. Crucially, every thread present in `Data/gwr_golden_review.csv` is removed to guarantee 100% test holdout (zero data leakage).
    - **To Reproduce**: Run `python data_clean/stage2.py` (reads `Data/gwr_threads.csv` and `Data/gwr_golden_review.csv`).
 
-7. **`Data/baseline2_keyword_results.csv` (Baseline 2 Evaluation)**:
+5. **`Data/baseline2_keyword_results.csv` (Baseline 2 Evaluation)**:
    - **Contents**: Predictions, classified intents, and template replies produced by the keyword/rule-based baseline model on the golden dataset.
    - **To Reproduce**: Run `python core/baseline2.py`.
 
-8. **`Data/llm_evaluation_results.csv` (LLM Judge Evaluation)**:
+6. **`Data/llm_evaluation_results.csv` (LLM Judge Evaluation)**:
    - **Contents**: Output of the LLM-as-a-Judge evaluation harness (`core/eval.py`). Records predicted intents, decisions, generated responses, retrieved contexts, similarity scores, retrieval relevance scores (0–100%), response quality scores (0–100%), and qualitative judge reasoning.
    - **To Reproduce**: Run:
      ```bash
      python core/eval.py --input-file Data/gwr_golden_review.csv --samples 25 --eval-mode replay --output-file Data/llm_evaluation_results.csv
      ```
 
-9. **`Data/human_evaluation_results.csv` (Human Benchmark Validation)**:
+7. **`Data/human_evaluation_results.csv` (Human Benchmark Validation)**:
    - **Contents**: Human-annotated evaluation scores across retrieval relevance and response quality, providing ground-truth human validation to cross-verify the LLM Judge.
    - **To Reproduce**: Derived from human expert review scoring across evaluated test instances.
 
@@ -171,15 +163,15 @@ python scripts/build_index.py
 
 ---
 
-## 4. Running the Support Agent & Speed Testing (`core/myapproch.py`)
+## 4. Running the Support Agent & Speed Testing (`core/myapproach.py`)
 
-`core/myapproch.py` is the primary entry point for querying the RAG pipeline. It retrieves the top-$k$ most relevant historical resolution patterns, identifies customer intent, selects a policy action, and generates an empathetic, context-aware reply.
+`core/myapproach.py` is the primary entry point for querying the RAG pipeline. It retrieves the top-$k$ most relevant historical resolution patterns, identifies customer intent, selects a policy action, and generates an empathetic, context-aware reply.
 
 ### 4.1 Quick Interactive / Default Test
 Run the built-in interactive test and latency benchmark:
 
 ```bash
-python core/myapproch.py
+python core/myapproach.py
 ```
 
 **Sample Output:**
@@ -215,14 +207,14 @@ Retrieved Examples Count: 3
 Pass your own query or prior conversation context directly via CLI flags:
 
 ```bash
-python core/myapproch.py --message "Where can I find lost property left at Swansea station?" --context "Customer: @GWRHelp I left my black backpack on the 14:15 train." --top-k 3
+python core/myapproach.py --message "Where can I find lost property left at Swansea station?" --context "Customer: @GWRHelp I left my black backpack on the 14:15 train." --top-k 3
 ```
 
 ### 4.3 Python API Integration
 You can also import and call the pipeline directly from Python code:
 
 ```python
-from core.myapproch import run_support_agent
+from core.myapproach import run_support_agent
 
 result = run_support_agent(
     conversation_context="Customer: @GWRHelp our train from Bristol was cancelled.",
