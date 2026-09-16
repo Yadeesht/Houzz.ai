@@ -1,0 +1,151 @@
+thread_id,turn_number,total_thread_turns,eval_mode,customer_message,conversation_context,retrieved_context,retrieved_thread_ids,retrieval_scores,ground_truth_intent,predicted_intent,intent_match,predicted_decision,predicted_confidence,ground_truth_response,generated_response,retrieval_score_percent,retrieval_reasoning,response_score_percent,response_reasoning,Retrival_human_score,Response_human_score,Human_predicted_decision
+GWR_000074,1,2,replay,Thanks @GWRHELP for not meeting us with a ramp Not going to get home for hour &amp; 1/2 instead of 20 mins. #Oxford #Didcot,,"[Example 1 | Thread: GWR_007975 | Score: 0.628]
+Customer: @GWRHelp I’m on the 16:15 out of London Paddington. Stuck at Didcot. Just want to say exemplary comms from the Manager - thank you to him!
+GWRHelp: @506726 Hi Richard. Apologies for the delay. I'm glad to hear this. I will pass this praise on to my colleague's manager. Have a good evening! Rach
+
+[Example 2 | Thread: GWR_001410 | Score: 0.619]
+Customer: @GWRHelp Evening Josh, 7pm on one of your ""fantastic"" new trains... We're moving now but a 6 minute delay at Didcot to open the doors! #GWRNewTrains
+GWRHelp: @141614 Really sorry for the delay Craig and any inconvenience this causes - Josh
+Customer: @GWRHelp It's ok Josh, it's actually pretty funny that you have all gone on about these new trains for years and today has been a disaster for you!
+GWRHelp: nan
+
+[Example 3 | Thread: GWR_010500 | Score: 0.609]
+Customer: @GWRHelp it’s me again... you may remember me? You made me late for work again this morning... ha ha ha great stuff. Anyways this evening im trying to get Home. You’ll never guess what, your gonna f*#k that up for me too! No trains from Paddington to Didcot! Ah GWR classic bants
+GWRHelp: @220489 Apologies for the delay on your journeys today Ben. Next service from Paddington to Didcot is expected to be the 2015 to Swansea. Phil.
+Customer: @GWRHelp Why apologies you’ll just do the same to me again tomorrow.",GWR_007975;GWR_001410;GWR_010500,0.628;0.619;0.609,ACCESSIBILITY / SPECIAL ASSISTANCE,ACCESSIBILITY / SPECIAL ASSISTANCE,TRUE,ESCALATE,0.98,@473633 Hi Sofie. Sorry to hear this. Did you have booked assistance? Rach,I am incredibly sorry to hear about this failure to provide the assistance you booked. This is not the level of service we aim to provide. Please DM us your booking reference and contact details so I can escalate this immediately to our accessibility team for a formal investigation. - GWRHelp,20,"The retrieved examples are entirely irrelevant to the customer's specific issue regarding accessibility/ramp failure. They focus on general delays and train complaints, providing no useful templates or operational guidance for handling a failed assistance booking.",85,"The generated response is professional, empathetic, and takes appropriate action by requesting details for an investigation. While it assumes assistance was booked (which is a logical inference for a ramp request), it is significantly more helpful and proactive than the ground truth response.",20,80,ESCALATE
+GWR_000074,2,2,replay,"@GWRHelp No, but don't bother telling me it's best to book in advance we never know 1/2 @GWRHelp when my mum will be well enough to travel and even if we do it doesn't mean you'll get met. 2/2","Customer: Thanks @GWRHELP for not meeting us with a ramp Not going to get home for hour &amp; 1/2 instead of 20 mins. #Oxford #Didcot
+GWRHelp: I am incredibly sorry to hear about this failure to provide the assistance you booked. This is not the level of service we aim to provide. Please DM us your booking reference and contact details so I can escalate this immediately to our accessibility team for a formal investigation. - GWRHelp","[Example 1 | Thread: GWR_008878 | Score: 0.701]
+Customer: @GWRHelp can I be contacted by whoever is in charge of accessibility at GWR? Since you failed to rectify your illegal failures yesterday
+Customer: @GWRHelp Could I get some response to this please?
+GWRHelp: @129868 Hi Charlie. Sorry for the delay in getting back to you. You can call our Assisted travel team on: 0800 197 1329. Rach
+Customer: @GWRHelp That’s not what I asked for. I asked for whoever is in charge of accessibility - person - not the assistance booking line; thanks
+GWRHelp: @129868 You can contact our Customer Support team at __email__, to make a formal complaint. Rach
+Customer: @GWRHelp Alright, usually companies don’t have a problem with me requesting this but clearly I’m not getting anywhere so I’ll just have to do that.
+
+[Example 2 | Thread: GWR_002463 | Score: 0.686]
+Customer: @GWRHelp @362180 @318761 Shame you didn’t let thetrainline know so that others could be advised instead of a horrible shock today. 8 hours travel, 3 hours in London.
+GWRHelp: @362181 @362180 @318761 Hi Wendy. Apologies that this information was not given to you. We made all relevant parties aware of the changes - Josh
+Customer: @GWRHelp @362181 @318761 You've still not told us Josh. The only reason we know what's going on is the fact my mum checked. Are you going to help @6301
+GWRHelp: @362180 @362181 @318761 @6301 We always advise customers to check in advance of travel. It was advertised through our website and on social media - Josh
+
+[Example 3 | Thread: GWR_010366 | Score: 0.680]
+Customer: So @GWRHelp have now tried twice to book assistance yesterday  this morning. As I don't know when my meeting will finish... unable to book!
+Customer: @GWRHelp So that effectively means I cannot have an independent working life if I want to use your devices based on yesterday's events and now todays
+GWRHelp: @122143 Hi Sue, sorry for any inconvenience can only guarantee assistance if booked 24 hours in advance but will always try to accommodate everyone.
+GWRHelp: nan
+GWRHelp: nan",GWR_008878;GWR_002463;GWR_010366,0.701;0.686;0.68,ACCESSIBILITY / SPECIAL ASSISTANCE,ACCESSIBILITY / SPECIAL ASSISTANCE,TRUE,ESCALATE,0.95,"@473633 1/2 Apologies again for the issues you and your mother faced Sofie, I appreciate this is frustrating. @473633 2/2 We do need notice to guarantee assistance but will do all we can when it's not possible to book in advance. Phil.","I completely understand your frustration, and I sincerely apologize that our service failed you when you needed it most. I hear your concerns regarding the reliability of assistance, and I would like to ensure this is formally reviewed by our management team. Please DM us your booking reference and contact details so I can escalate this directly to our accessibility team for a thorough investigation. - GWRHelp",75,The retrieved examples are highly relevant to the topic of accessibility failures and the frustration of booking assistance. Example 3 is particularly useful as it mirrors the customer's specific pain point regarding the inability to book in advance due to unpredictable travel needs.,85,"The response is empathetic, professional, and maintains the GWR brand tone. It correctly avoids the 'book in advance' platitude that the customer explicitly rejected, focusing instead on escalation and investigation. It is slightly less concise than the ground truth but effectively addresses the customer's emotional state.",50,85,ESCALATE
+GWR_000019,1,2,replay,@GWRHelp where do I send the bill for my time you've wasted and my missed connecting train? #MickeyMouse #LiterallyEveryOtherTrainIsLate,,"[Example 1 | Thread: GWR_005137 | Score: 0.657]
+Customer: @GWRHelp again guys.
+GWRHelp: @226842 Hello Joe. The train has been delayed due to a fault. Apologies for the disruption. - Jordan
+
+[Example 2 | Thread: GWR_009019 | Score: 0.646]
+Customer: @GWRHelp poor customer service from the 18:02 from STS. Saying bye to my sister to be rudely told to get on the train now or they will go!
+GWRHelp: @357108 Hi Emma. If you send details to __email__ this can be looked into. Lewis
+
+[Example 3 | Thread: GWR_010301 | Score: 0.630]
+Customer: @GWRHelp are a pile of crap 💩
+GWRHelp: @250449 Hello Meg. Can we help? - Jordan
+Customer: @GWRHelp No your train service is rubbish!!",GWR_005137;GWR_009019;GWR_010301,0.657;0.646;0.63,TRAIN DELAY / CANCELLATION,TRAIN DELAY / CANCELLATION,TRUE,ESCALATE,0.95,@534509 Hi Dave. Sorry for the delay to your journey. We don't compensate for consequential losses but please check: https://t.co/kZncdam7bx. Nat,"Hello. I am very sorry to hear about the disruption to your journey and the impact on your connection. We take these matters seriously. Please send the details of your journey, including your booking reference and the specific train services affected, to gwr.feedback@gwr.com so our team can investigate this further for you. - GWR Team",40,"The retrieved examples are low-quality and generic. They do not provide relevant policy information regarding compensation for consequential losses or missed connections, which is the core of the customer's complaint.",75,"The response is professional, empathetic, and helpful in directing the customer to a feedback channel. However, it fails to address the specific policy point regarding 'consequential losses' (compensation for time wasted), which the human agent correctly identified as a key boundary for GWR's liability.",20,65,ASK_CLARIFICATION
+GWR_000019,2,2,replay,@GWRHelp You don't compensate for something that's directly your responsibility? Seems legit! Can't imagine if I took that to court you'd fair well,"Customer: @GWRHelp where do I send the bill for my time you've wasted and my missed connecting train? #MickeyMouse #LiterallyEveryOtherTrainIsLate
+GWRHelp: Hello. I am very sorry to hear about the disruption to your journey and the impact on your connection. We take these matters seriously. Please send the details of your journey, including your booking reference and the specific train services affected, to gwr.feedback@gwr.com so our team can investigate this further for you. - GWR Team","[Example 1 | Thread: GWR_003849 | Score: 0.759]
+GWRHelp: @130652 There is a 4 minute delay at present because of train crew being delayed by service disruption - Apologies for this on top of the cancellation. Phil.
+Customer: @130652 @GWRHelp More useless apologies. Great work, Phil! Now make sure we write down the customers issue, then walk over to the bin and forget about it! Haha!
+Customer: @GWRHelp We’re now 10 mins late. It gets better and better ( so should arrive 33 mins later than planned before your cancellation and delays - and no compensation)
+Customer: @130652 @GWRHelp going well! Compensation is only due when it hits 60 minutes. Hopefully you'll be late 59! Maximum misery for you, zero refund! Haha!
+
+[Example 2 | Thread: GWR_000893 | Score: 0.758]
+Customer: @GWRHelp cancelling trains from Paddington on Sunday at short notice, costing me £50 4 extra night in hotel! A new low even 4 Great Western!
+GWRHelp: @309402 Apologies Robert. We were notified of the works at short notice which meant we couldn't pass on the information sooner. Phil.
+Customer: @GWRHelp that is not a valid excuse. GWR have shown utter contempt for its passengers. I shall expect compensation.
+GWRHelp: @309402 1/2 We are offering full refunds on unused tickets, but not liable for consequential losses. That said we consider claims individually.
+GWRHelp: @309402 2/2 To record a complaint or make a claim please email full details to __email__. Phil.
+
+[Example 3 | Thread: GWR_006349 | Score: 0.758]
+Customer: @GWRHelp How do I formally complain? Who regulates you?
+GWRHelp: @518542 1/2 Hi Emma. Really sorry for the delays today. The train is being delayed due to a fault on the service. You can make a - Josh
+GWRHelp: @518542 2/2 complaint to __email__ or if you wish to take this further you can visit https://t.co/R7TNmlPgG6 - Josh
+Customer: @GWRHelp @GWRHelp Apologies don't cut it. You're always sorry but never fix the terrible service. You are an awful company to have to deal with.
+Customer: @GWRHelp @518542 And when you email them they tell they will respond in 12 weeks...yes a quarter of a year",GWR_003849;GWR_000893;GWR_006349,0.759;0.758;0.758,TRAIN DELAY / CANCELLATION,REFUND / COMPENSATION,FALSE,ESCALATE,0.95,"@534509 We will compensate the cost of your train ticket if you are eligible based on your ticket, overall delay time and the cause of the delay.","I understand your frustration regarding the impact of this delay. While we are unable to provide compensation for consequential losses such as missed connections, we do have a Delay Repay policy for significant delays to your journey. I have escalated your concerns to our customer relations team, who can review your specific case. Please ensure you have sent your journey details to gwr.feedback@gwr.com so they can assist you further. - GWR Team",90,"The retrieved examples are highly relevant, providing clear precedents for handling customer frustration regarding compensation, consequential losses, and the formal complaints process.",95,"The response is professional, empathetic, and accurate. It correctly addresses the customer's demand for compensation by clarifying the Delay Repay policy while setting appropriate expectations regarding consequential losses, aligning well with GWR's operational guidelines.",,,
+GWR_000119,1,2,replay,Why do I get this bizarre awful web app in place of the native app when I search for trains sometimes? @GWRHelp,,"[Example 1 | Thread: GWR_001353 | Score: 0.570]
+Customer: @GWRHelp Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. https://t.co/Ul43v8Rrna
+GWRHelp: @324537 Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil.
+Customer: @GWRHelp Literally irrelevant if ppl can't buy tix for the new trains. I've never hated a website so much that I physically dread having 2 use it.
+Customer: @GWRHelp App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now it's an absolute sh*tshow.
+
+[Example 2 | Thread: GWR_006445 | Score: 0.554]
+Customer: @GWRHelp your app seems to be dreadful these days. Why can’t I find train times anymore?  Putting in journey details takes you to ticket purchase screen which then does nothing at all.
+GWRHelp: @237806 Hi David. Sorry you are having this issue. Have you tried uninstalling and reinstalling? - Josh
+Customer: @GWRHelp I’ve just installed the trainline app, that’s working beautifully.
+
+[Example 3 | Thread: GWR_002650 | Score: 0.543]
+Customer: @GWRHelp Can't search for the trains on your website. Keeps saying an error has occurred
+GWRHelp: @562492 Good morning. No other reports, please try again later. Regards Roger.
+Customer: @GWRHelp I've tried for an hr and still the same. Was searching for trains from PLY-PAD https://t.co/C9sCOXMGGv
+GWRHelp: @562492 Hi there. Apologies for any issues last night. Please can you try a different browser and clear your cache and cookies settings  - Josh",GWR_001353;GWR_006445;GWR_002650,0.57;0.554;0.543,TECHNICAL / WEBSITE / APP,TECHNICAL / WEBSITE / APP,TRUE,ASK_CLARIFICATION,0.95,@145787 Hello Jon. Could you send me a screenshot please of the webpage in the app? I'll feedback to the team. - Jordan,"Hi there. I'm sorry to hear you're experiencing issues with the app. To help us investigate this, could you please let us know which device and operating system you are using, and if possible, share a screenshot of the issue? - GWR Team",65,"The retrieved examples successfully identify that the user is experiencing technical difficulties with the GWR app/website, providing relevant context on how agents handle similar complaints, though they don't specifically address the 'web app vs native app' redirection issue.",90,"The generated response is professional, empathetic, and proactive. It effectively gathers necessary diagnostic information (device/OS/screenshot) to escalate the issue, which is more helpful than the ground truth response while maintaining the GWR brand tone.",60,95,ASK_CLARIFICATION
+GWR_000119,2,2,replay,@GWRHelp It’d be helpful if it didn’t default to invalid terms. Arrive before makes no sense at all. Thanks https://t.co/Jcq46y4GPE,"Customer: Why do I get this bizarre awful web app in place of the native app when I search for trains sometimes? @GWRHelp
+GWRHelp: Hi there. I'm sorry to hear you're experiencing issues with the app. To help us investigate this, could you please let us know which device and operating system you are using, and if possible, share a screenshot of the issue? - GWR Team","[Example 1 | Thread: GWR_001353 | Score: 0.610]
+Customer: @GWRHelp Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. https://t.co/Ul43v8Rrna
+GWRHelp: @324537 Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil.
+Customer: @GWRHelp Literally irrelevant if ppl can't buy tix for the new trains. I've never hated a website so much that I physically dread having 2 use it.
+Customer: @GWRHelp App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now it's an absolute sh*tshow.
+
+[Example 2 | Thread: GWR_003231 | Score: 0.580]
+Customer: @GWRHelp This screenshot was taken whilst the train was still at the platform in Redhill, 4 minutes after your app claimed it had left.
+Customer: @GWRHelp Seems like an issue with monitoring at Redhill. Would be grateful if you could pass this in so it can get fixed.
+GWRHelp: @308422 We have been recording your feedback with the App Team to improve, I'll make sure this is added. - Jordan
+
+[Example 3 | Thread: GWR_003307 | Score: 0.571]
+Customer: @GWRHelp  why can't you update the national rail app? It is now going to take me 2 and a half hours to get to reading
+GWRHelp: @505835 Good evening Laura. Can you advise me what is missing on the app . Regards Roger.
+Customer: @GWRHelp Hi roger, I have DM'd you as my complaint is too long for 140 characters
+GWRHelp: nan",GWR_001353;GWR_003231;GWR_003307,0.61;0.58;0.571,TECHNICAL / WEBSITE / APP,TECHNICAL / WEBSITE / APP,TRUE,RESPOND,0.95,"@145787 Thank you, I'll let the team know to look into. - Jordan",Thank you for sharing that screenshot. I understand your frustration regarding the 'Arrive before' functionality and the interface behavior. I have logged this feedback with our app development team to review the user experience and the specific error you've encountered. We appreciate you bringing this to our attention. - GWR Team,65,"The retrieved examples are relevant in that they involve technical app issues and GWR's process for logging feedback, though they do not specifically address the 'Arrive before' UI/UX complaint.",95,"The generated response is professional, empathetic, and directly addresses the customer's specific complaint about the 'Arrive before' feature. It is significantly more helpful and communicative than the brief ground-truth response.",60,95,RESPOND
+GWR_000079,1,2,replay,No catering at all on v busy #London train - come on @GWRHelp - get the kettle on !! ☕️👎,,"[Example 1 | Thread: GWR_002991 | Score: 0.695]
+Customer: @GWRHelp The 9:03 train from Reading to Cardiff &amp; travelled back on 19:35 train back on Sat 25th Nov
+GWRHelp: @787386 Thanks for confirming. Was an announcement made on this service regarding the lack of catering? Rachel
+Customer: @GWRHelp I’m not sure, the train was so full it was quite noisy . Took ages to make my way to buffet car only to find it shut.
+GWRHelp: @787386 I have just spoken with our Catering team and this service had the Express Cafe open from Swindon to Paddington. Rachel
+
+[Example 2 | Thread: GWR_009112 | Score: 0.690]
+Customer: @GWRHelp really disappointed there are no food or drink facilities available on this train, I’ll avoid this service in the future! #hungry
+GWRHelp: @757649 Hi Laila. Sorry to hear this. What service are you on please? Rach
+Customer: @GWRHelp Hi Rach. I’m on the 17:42 from reading to Paddington and I’m still hungry
+GWRHelp: @757649 Sorry for the lack of catering facilities on this service, this is due to catering crew being unavailable. I appreciate this isn't pleasant. Rach
+
+[Example 3 | Thread: GWR_009442 | Score: 0.658]
+Customer: £100.90 return London to Cardiff and no buffet. You have no respect or care for your customers @GWRHelp
+GWRHelp: @815634 Hi Lisa. Sorry for the lack of catering. Can you confirm the scheduled departure time please? Rachel
+Customer: @GWRHelp 17.55 from Cardiff to London Paddington
+GWRHelp: @815634 Glad something could be provided. Apologies again for the lack of catering. Lewis",GWR_002991;GWR_009112;GWR_009442,0.695;0.69;0.658,GENERAL CUSTOMER SERVICE,TRAIN / SERVICE INFORMATION,FALSE,REQUEST_INFORMATION,0.95,@811347 Hi Nigel. Which service is this please? Have you spoken to staff on-board about this? Natalie,"Hi there. I am very sorry to hear about the lack of catering on your service today. To help me look into this for you, could you please provide the scheduled departure time and the stations you are travelling between? Thanks, GWRHelp.",90,"The retrieved examples are highly relevant as they all address customer complaints regarding lack of catering, providing excellent templates for how to request service details and handle such feedback.",95,"The generated response is professional, empathetic, and follows the standard GWR procedure of asking for specific service details to investigate the issue. It is more helpful and structured than the ground truth response.",95,95,REQUEST_INFORMATION
+GWR_000079,2,2,replay,@GWRHelp It was the Plymouth to London train - I joined it from Taunton at 7.18 and it was repeatedly announced no catering at all on board !,"Customer: No catering at all on v busy #London train - come on @GWRHelp - get the kettle on !! ☕️👎
+GWRHelp: Hi there. I am very sorry to hear about the lack of catering on your service today. To help me look into this for you, could you please provide the scheduled departure time and the stations you are travelling between? Thanks, GWRHelp.","[Example 1 | Thread: GWR_002991 | Score: 0.782]
+Customer: @GWRHelp The 9:03 train from Reading to Cardiff &amp; travelled back on 19:35 train back on Sat 25th Nov
+GWRHelp: @787386 Thanks for confirming. Was an announcement made on this service regarding the lack of catering? Rachel
+Customer: @GWRHelp I’m not sure, the train was so full it was quite noisy . Took ages to make my way to buffet car only to find it shut.
+GWRHelp: @787386 I have just spoken with our Catering team and this service had the Express Cafe open from Swindon to Paddington. Rachel
+
+[Example 2 | Thread: GWR_000920 | Score: 0.762]
+Customer: Oh well, paid for @GWRHelp 1st upgr only for there to be no catering on train (Taunton&gt;Paddy)! Good job I brought some water! #HungerTrains
+GWRHelp: @246738 Hi Paul. Sorry to hear this. What was the scheduled departure time of this service please? Rach
+Customer: @GWRHelp ...and a thank you to @GWRHelp who have kindly refunded my upgrade. That’s spot on - cheers!
+
+[Example 3 | Thread: GWR_009442 | Score: 0.722]
+Customer: £100.90 return London to Cardiff and no buffet. You have no respect or care for your customers @GWRHelp
+GWRHelp: @815634 Hi Lisa. Sorry for the lack of catering. Can you confirm the scheduled departure time please? Rachel
+Customer: @GWRHelp 17.55 from Cardiff to London Paddington
+GWRHelp: @815634 Glad something could be provided. Apologies again for the lack of catering. Lewis",GWR_002991;GWR_000920;GWR_009442,0.782;0.762;0.722,GENERAL CUSTOMER SERVICE,TRAIN / SERVICE INFORMATION,FALSE,RESPOND,0.95,@811347 Thank you and apologies for the lack of catering facilities on-board. I appreciate this is disappointing. I don't have info as to why this is I'm afraid. Natalie,"Thank you for providing those details. I am very sorry that you were unable to access catering services on your journey from Taunton this morning. I have noted your feedback regarding the lack of service on this route. If you would like to discuss this further or look into compensation options, please feel free to contact our customer support team via our website. Thanks, GWRHelp.",90,"The retrieved examples are highly relevant, providing templates for handling catering complaints, requesting specific service details, and managing customer expectations regarding refunds or feedback.",95,"The generated response is professional, empathetic, and helpful. It acknowledges the specific journey details provided, validates the customer's frustration, and offers a clear path for further action, which is superior to the ground truth response that simply stated a lack of information.",95,95,RESPOND
+GWR_000077,1,1,replay,"@GWRHelp what an unpleasant experience on a packed train to London Paddington today.  How do you even get to the toilet?  Rammed, overcrowded, stressful - not like your Enid Blyton adverts at all!",,"[Example 1 | Thread: GWR_010660 | Score: 0.726]
+Customer: @GWRHelp The 17:37 from Oxford has left without a working toilet. Ridiculous for a train that's fully journey time is over an hour.
+GWRHelp: @375433 Hi Sarah. Is this the service to Paddington? Rach
+Customer: @GWRHelp Hello Rach, yes it is. It's frustrating as bus was delayed so I couldn't use the fasciitis at Oxford. Not ideal.
+
+[Example 2 | Thread: GWR_006062 | Score: 0.708]
+Customer: @GWRHelp your 16:13 from Bath Spa to Paddington is a shambles! A complete shambles.  Reserved seating is messed up, people are sitting on the floors and in the toilets due to missing carriages?! Please advise compensation!!
+Customer: @689801 @GWRHelp I’m on this train. Carriage E has been in darkness for half an hour. So shoddy
+Customer: @670766 @GWRHelp There are babies and dogs on the floor! I kid you not! Hahahaa what are we paying for? @GWRHelp... what’s being done?
+Customer: @689801 @GWRHelp I’ve been tweeting them for a while but no response. #pantstrain
+
+[Example 3 | Thread: GWR_001327 | Score: 0.708]
+Customer: Do people not need the toilet in the evening @GWRHelp?! This pregnant lady is not even sorry if she wees on your seats. Staff member who said he was going to unlock them vanished. #unlockthetoilets #unhappycustomer
+GWRHelp: @707011 Hi Annie. So sorry to hear this. Which train is this on please? - Josh
+Customer: @GWRHelp 22:48 (delayed) from London Paddington to Oxford. Lots of unhappy travellers.
+GWRHelp: @707011 Really sorry for the inconvenience Annie. This will have been locked out of use due to a fault - Josh",GWR_010660;GWR_006062;GWR_001327,0.726;0.708;0.708,GENERAL CUSTOMER SERVICE,TRAIN / SERVICE INFORMATION,FALSE,ASK_CLARIFICATION,0.95,@473695 Sorry to hear it's crowded on board - Which service are you on please? Phil.,"I am very sorry to hear about your experience today, and I understand how stressful it is to travel on an overcrowded service. To help me look into this for you, could you please let me know the departure time and the station you travelled from? - GWR Team",85,"The retrieved examples are highly relevant as they focus on overcrowding, toilet access issues, and service complaints on the Paddington line, providing excellent context for how to handle similar passenger frustrations.",95,"The generated response is professional, empathetic, and follows the GWR brand tone perfectly. It is more helpful than the ground truth as it clearly explains why the information is needed, while maintaining conciseness.",60,95,RESPOND
