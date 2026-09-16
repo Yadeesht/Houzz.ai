@@ -244,9 +244,24 @@ def main():
     df_raw = pd.read_csv(args.input_file)
     logger.info("Loaded input dataset with %d rows.", len(df_raw))
 
+    # Detect conversation text column (supports both 'full_conversation' and 'data')
+    conv_col = None
+    for col_candidate in ["full_conversation", "data", "conversation"]:
+        if col_candidate in df_raw.columns:
+            conv_col = col_candidate
+            break
+
+    if not conv_col:
+        raise KeyError(
+            f"Input CSV at {args.input_file} must contain a conversation text column "
+            f"(either 'full_conversation' or 'data'). Found columns: {list(df_raw.columns)}"
+        )
+
     # Keep rows with usable labels and conversations
-    df = df_raw[df_raw["intent"].notna() & df_raw["full_conversation"].notna()].copy()
-    logger.info("Rows with valid intent and conversation: %d", len(df))
+    df = df_raw[df_raw["intent"].notna() & df_raw[conv_col].notna()].copy()
+    if conv_col != "full_conversation":
+        df["full_conversation"] = df[conv_col]
+    logger.info("Rows with valid intent and conversation (from '%s'): %d", conv_col, len(df))
 
     # Sampling threads
     if args.samples > 0 and len(df) > args.samples:
